@@ -29,7 +29,6 @@ export default {
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    noscript: [{ innerHTML: 'This website requires JavaScript.' }],
 
     script: [
       {
