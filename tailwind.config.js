@@ -40,7 +40,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        gray: {
+        'gray': {
           100: '#f5f5f5',
           200: '#eeeeee',
           300: '#e0e0e0',
@@ -52,6 +52,23 @@ module.exports = {
           900: '#212121',
           darken: '#21212155',
         },
+        'c-violet': {
+          1: '#652347',
+          2: '#813347',
+        },
+        'c-red': {
+          1: '#C8281C',
+          2: '#C72317',
+          3: '#86251E',
+        },
+        'c-yellow': {
+          1: '#FDA131',
+          2: '#FEB912',
+          3: '#FDB864',
+        },
+      },
+      opacity: {
+        85: '0.85',
       },
       spacing: {
         '-12': '-3rem',

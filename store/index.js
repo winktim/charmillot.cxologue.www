@@ -11,6 +11,57 @@ export const state = () => ({
     lastMessage: '',
     timeout: null,
   },
+
+  sections: {
+    row1: [
+      {
+        title: 'À quoi sert la sexologie',
+        image: '/images/flowers_1.jpg',
+        bgColor: 'c-violet-1',
+        fgColor: 'gray-100',
+        id: 'a-quoi-sert-la-sexologie',
+      },
+      {
+        title: 'Parcours professionnel',
+        image: '/images/body_1_low.jpg',
+        bgColor: 'c-red-1',
+        alternateBgColor: 'c-red-3',
+        fgColor: 'gray-100',
+        id: 'parcours-professionnel',
+      },
+      {
+        title: 'Motifs de consultation',
+        image: '/images/flowers_2.jpg',
+        bgColor: 'c-yellow-1',
+        alternateBgColor: 'c-yellow-3',
+        fgColor: 'gray-900',
+        id: 'motifs-de-consultation',
+      },
+    ],
+    row2: [
+      {
+        title: 'Synthèse de l’approche',
+        image: '/images/flowers_3.jpg',
+        bgColor: 'c-violet-2',
+        fgColor: 'gray-100',
+        id: 'synthese-de-l-approche',
+      },
+      {
+        title: 'Actualités',
+        image: '/images/flowers_4.jpg',
+        bgColor: 'c-red-2',
+        fgColor: 'gray-100',
+        id: 'actualites',
+      },
+      {
+        title: 'Prendre contact',
+        image: '/images/flowers_5.jpg',
+        bgColor: 'c-yellow-2',
+        fgColor: 'gray-900',
+        id: 'prendre-contact',
+      },
+    ],
+  },
 })
 
 export const mutations = {
@@ -50,4 +101,6 @@ export const actions = {
   },
 }
 
-export const getters = {}
+export const getters = {
+  sections: (state) => state.sections,
+}

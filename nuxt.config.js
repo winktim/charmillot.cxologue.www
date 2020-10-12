@@ -60,7 +60,9 @@ export default {
    */
   plugins: [],
 
-  router: {},
+  router: {
+    trailingSlash: false,
+  },
 
   /*
    ** Nuxt.js modules
@@ -72,7 +74,30 @@ export default {
       path.join(__dirname, './pages/**/*.vue'),
       path.join(__dirname, './layouts/**/*.vue'),
       path.join(__dirname, './components/**/*.vue'),
+      path.join(__dirname, './sections/**/*.vue'),
     ]),
+    whitelist: [
+      'bg-c-violet-1',
+      'text-c-violet-1',
+      'bg-gray-100',
+      'text-gray-100',
+      'bg-c-red-1',
+      'text-c-red-1',
+      'bg-c-red-3',
+      'text-c-red-3',
+      'bg-c-yellow-1',
+      'text-c-yellow-1',
+      'bg-c-yellow-3',
+      'text-c-yellow-3',
+      'bg-gray-900',
+      'text-gray-900',
+      'bg-c-violet-2',
+      'text-c-violet-2',
+      'bg-c-red-2',
+      'text-c-red-2',
+      'bg-c-yellow-2',
+      'text-c-yellow-2',
+    ],
   },
 
   /*
