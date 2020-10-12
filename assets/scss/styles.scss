@@ -1,0 +1,76 @@
+input,
+button,
+select {
+  text-align: left;
+  outline: 0;
+  font-weight: normal;
+
+  // remove default border radius in Chrome 62+ on macOS, Android & iOS, Firefox Mobile
+  border-radius: 0;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &::-moz-focus-inner {
+    border: 0;
+  }
+}
+
+// remove ugly firefox dotted outline
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 theme('colors.gray.900');
+}
+select:-moz-focusring * {
+  color: theme('colors.gray.900');
+  text-shadow: none;
+}
+
+// remove blue highlight once a value is selected.
+// keep text color with "currentColor"
+select::-ms-value {
+  background: transparent;
+  color: currentColor;
+}
+
+// remove select arrow on IE
+select::-ms-expand {
+  display: none;
+}
+
+// remove spinner on chrome and firefox
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+// fix normilize for IE11
+input:-ms-input-placeholder,
+input::-ms-input-placeholder,
+textarea:-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+
+// hide IE & Edge input clear button
+input::-ms-clear {
+  display: none;
+}
+
+/* IE11 fix: https://github.com/philipwalton/flexbugs#flexbug-2 */
+
+.flex,
+.action {
+  > p,
+  > h2,
+  > h3,
+  > span,
+  > i {
+    max-width: 100%;
+  }
+}

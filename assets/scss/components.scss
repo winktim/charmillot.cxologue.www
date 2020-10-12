@@ -1,0 +1,264 @@
+@import './icons.scss';
+
+.clickable {
+  @apply cursor-pointer select-none outline-none;
+}
+
+.disabled {
+  filter: contrast(0.5) brightness(170%) grayscale(0.7);
+  cursor: not-allowed;
+}
+
+.disabled-dark {
+  filter: brightness(105%) grayscale(1) opacity(0.7);
+  cursor: not-allowed;
+}
+
+.popup {
+  &.confirmable {
+    &[data-popup-show='true'] {
+      @apply rounded-md bg-red-600 text-gray-100 shadow-lg;
+    }
+  }
+
+  &[data-popup-show='true'] {
+    @apply relative;
+
+    &::after {
+      @apply z-10 absolute right-full mr-1 shadow-lg w-48 bg-gray-800 text-gray-100 p-3 text-sm rounded-md text-center pointer-events-none;
+      content: attr(data-popup-text);
+
+      @media (min-width: theme('screens.md')) {
+        @apply w-60;
+      }
+    }
+  }
+}
+
+@keyframes notice-me {
+  0% {
+    filter: brightness(100%);
+  }
+
+  30% {
+    filter: brightness(120%);
+  }
+
+  100% {
+    filter: brightness(100%);
+  }
+}
+
+.notice-me-senpai {
+  animation: 300ms ease-in notice-me;
+}
+
+.green-link {
+  text-decoration: underline;
+  @apply text-green-200;
+
+  &:hover {
+    @apply text-green-100;
+  }
+}
+
+.material-radio,
+.material-checkbox {
+  > .material-radio-fake,
+  > .material-checkbox-fake {
+    @apply p-2 cursor-pointer;
+    &::after {
+      content: 'check_box_outline_blank';
+
+      @apply material-icons-pseudo pointer-events-none select-none text-xl;
+    }
+
+    &.material-checkbox-fake__large::after {
+      @apply text-3xl;
+    }
+  }
+
+  // other icon for the radio
+  > .material-radio-fake::after {
+    content: 'radio_button_unchecked';
+  }
+
+  > input {
+    // display flex so it stopts taking place in the DOM
+    // don't display: none because then it is not focusable
+    // firefox: can't set widht/height for checkbox, so use transform
+    transform: scale(0);
+    // this makes sure it doesn't take space in the DOM
+    @apply absolute;
+
+    &:checked ~ .material-checkbox-fake::after {
+      content: 'check_box';
+    }
+
+    // other icon for the radio
+    &:checked ~ .material-radio-fake::after {
+      content: 'radio_button_checked';
+    }
+
+    &:disabled ~ .material-radio-fake::after,
+    &:disabled ~ .material-checkbox-fake::after {
+      @apply disabled;
+    }
+
+    &:focus ~ .material-radio-fake::after,
+    &:focus ~ .material-checkbox-fake::after {
+      @apply shadow-outline;
+    }
+  }
+
+  &:hover {
+    @apply lighten-5;
+  }
+
+  &:active {
+    @apply darken-5;
+  }
+}
+
+.material-select {
+  @apply relative;
+
+  > label {
+    @apply select-none absolute pointer-events-none w-full h-full bg-gray-100 py-2 pl-3 pr-8 text-gray-900 rounded-md;
+  }
+
+  > select {
+    @apply w-full h-full block appearance-none bg-gray-100 py-2 pl-3 pr-8 text-gray-900 rounded-md;
+
+    &:focus {
+      @apply outline-none shadow-outline;
+    }
+  }
+
+  &::after {
+    content: 'arrow_drop_down';
+
+    @apply material-icons-pseudo absolute pointer-events-none top-0 bottom-0 right-0 px-3 flex items-center text-gray-900;
+  }
+
+  // handle screens being too small
+  @media (min-width: theme('screens.fake-select')) {
+    > label {
+      @apply hidden;
+    }
+  }
+}
+
+.transparent-input {
+  @apply bg-transparent border-b-2 border-gray-300 appearance-none outline-none transition-border-color-100;
+
+  &:focus {
+    @apply border-gray-700;
+  }
+
+  &:disabled {
+    @apply disabled-dark;
+  }
+}
+
+.wrapped-transparent-input {
+  > .wrapped-style {
+    @apply border-b-2 border-gray-300 transition-border-color-100;
+  }
+
+  > input {
+    @apply bg-transparent appearance-none outline-none;
+
+    &:focus ~ .wrapped-style {
+      @apply border-gray-700;
+    }
+
+    &:disabled ~ .wrapped-style {
+      @apply disabled;
+    }
+  }
+}
+
+.wrapped-single-transparent-input {
+  > .wrapped-style {
+    @apply z-bottom bg-gray-100 rounded-md transition-border-radius-200;
+  }
+
+  > input {
+    @apply bg-transparent appearance-none outline-none;
+
+    &:disabled ~ .wrapped-style {
+      @apply disabled;
+    }
+  }
+}
+
+.transparent-select {
+  > select {
+    @apply clickable block appearance-none bg-transparent pr-4;
+
+    &:focus {
+      @apply outline-none shadow-outline;
+    }
+
+    > option {
+      @apply bg-gray-100;
+
+      //prevent <option>s from becoming transparent on firefox
+      &:not(:checked) {
+        @apply text-gray-900;
+      }
+    }
+  }
+
+  &::after {
+    content: 'arrow_drop_down';
+
+    top: theme('spacing.4');
+    right: theme('spacing.4');
+    @apply material-icons-pseudo absolute pointer-events-none;
+  }
+}
+
+.range-slider__range {
+  @apply bg-gray-100 appearance-none h-3 rounded-md outline-none p-0 m-0;
+
+  &::-moz-range-track {
+    // Firefox Mobile Fix
+    background-color: transparent;
+  }
+
+  // Range Handle
+  &::-webkit-slider-thumb {
+    @apply w-6 h-6 rounded-full bg-gray-800 cursor-pointer appearance-none transition-background-100;
+
+    &:hover {
+      @apply bg-gray-700;
+    }
+  }
+
+  &:active::-webkit-slider-thumb {
+    @apply bg-gray-700;
+  }
+
+  &::-moz-range-thumb {
+    @apply w-6 h-6 border-none rounded-full bg-gray-800 cursor-pointer appearance-none transition-background-100;
+
+    &:hover {
+      @apply bg-gray-700;
+    }
+  }
+
+  &:active::-moz-range-thumb {
+    @apply bg-gray-700;
+  }
+
+  &:focus {
+    &::-webkit-slider-thumb {
+      @apply bg-gray-700;
+    }
+    &::-moz-range-thumb {
+      @apply bg-gray-700;
+    }
+  }
+}

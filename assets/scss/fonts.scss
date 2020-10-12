@@ -1,0 +1,41 @@
+// Merienda
+@font-face {
+  font-family: 'Merienda';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Merienda Bold'), local('Merienda-Bold'),
+    url(/fonts/Merienda/Merienda-Bold.woff2) format('woff2'),
+    url(/fonts/Merienda/Merienda-Bold.woff) format('woff');
+}
+
+// Mulish
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Mulish SemiBold'), local('Mulish-SemiBold'),
+    url(/fonts/Mulish/Mulish-SemiBold.woff2) format('woff2'),
+    url(/fonts/Mulish/Mulish-SemiBold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Mulish ExtraBold'), local('Mulish-ExtraBold'),
+    url(/fonts/Mulish/Mulish-ExtraBold.woff2) format('woff2'),
+    url(/fonts/Mulish/Mulish-ExtraBold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Mulish ExtraBoldItalic'), local('Mulish-ExtraBoldItalic'),
+    url(/fonts/Mulish/Mulish-ExtraBoldItalic.woff2) format('woff2'),
+    url(/fonts/Mulish/Mulish-ExtraBoldItalic.woff) format('woff');
+}
