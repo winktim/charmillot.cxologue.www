@@ -43,7 +43,7 @@ export default {
   },
   computed: {
     isIE() {
-      return this.$store.state.isIE
+      return typeof document !== 'undefined' && !!document.documentMode
     },
   },
 }

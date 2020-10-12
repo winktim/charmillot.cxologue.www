@@ -5,8 +5,6 @@ import {
 } from '../assets/mutations'
 
 export const state = () => ({
-  isIE: !!document.documentMode,
-
   messageBox: {
     show: false,
     isError: false,

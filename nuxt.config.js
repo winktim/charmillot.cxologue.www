@@ -8,7 +8,7 @@ config()
 const features = ['es2015', 'es2016', 'IntersectionObserver'].join('%2C')
 
 export default {
-  ssr: false,
+  ssr: true,
   /*
    ** Headers of the page
    */
@@ -44,7 +44,7 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: { color: '#333' },
   /*
    ** Global CSS
    */
