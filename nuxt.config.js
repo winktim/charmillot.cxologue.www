@@ -70,12 +70,7 @@ export default {
   modules: ['nuxt-purgecss'],
 
   purgeCSS: {
-    paths: glob.sync([
-      path.join(__dirname, './pages/**/*.vue'),
-      path.join(__dirname, './layouts/**/*.vue'),
-      path.join(__dirname, './components/**/*.vue'),
-      path.join(__dirname, './sections/**/*.vue'),
-    ]),
+    paths: ['sections/**/*.vue'],
     whitelist: [
       'bg-c-violet-1',
       'text-c-violet-1',
