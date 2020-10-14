@@ -100,6 +100,7 @@ module.exports = {
       },
       maxWidth: {
         60: '15rem',
+        100: '25rem',
         120: '30rem',
       },
       minWidth: {
@@ -112,6 +113,7 @@ module.exports = {
       },
       borderRadius: {
         md: '0.3rem',
+        xl: '1.3rem',
       },
       inset: {
         full: '100%',

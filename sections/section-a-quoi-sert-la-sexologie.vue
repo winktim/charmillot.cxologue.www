@@ -8,17 +8,17 @@
   >
     <p>
       Dans notre société, nous parlons beaucoup de l’importance de maintenir une
-      bonne santé physique, mentale, relationnelle et aussi une bonne santé
-      sexuelle. Mais, comment évaluer notre santé sexuelle? Quel est notre degré
-      de satisfaction sexuelle, relationnelle, émotionnelle ?
+      bonne santé physique, mentale, relationnelle et aussi une bonne
+      <u>santé sexuelle</u>. Mais, comment évaluer notre santé sexuelle? Quel
+      est notre degré de satisfaction sexuelle, relationnelle, émotionnelle ?
     </p>
-
+    <br />
     <p>
       Une sexualité épanouie repose sur les habiletés à ressentir et à jouer
-      avec son corps, son cœur et son esprit, d’une manière consentie,
-      conscientisée et diversifiée.
+      avec son corps, son cœur et son esprit, d’une manière
+      <strong>consentie, conscientisée et diversifiée</strong>.
     </p>
-
+    <br />
     <p>
       Durant notre existence,<br />
       - peuvent survenir des dysfonctionnements, des pertes, des impossibilités,
@@ -26,7 +26,7 @@
       - peuvent naître de nouveaux désirs, souhaits, envies, questionnements,
       découvertes. La sexologie peut améliorer et embellir ces variations.
     </p>
-
+    <br />
     <p>
       La sexualité est apprise et évolutive, seul le réflexe neurologique
       d’excitation génitale est inné. La façon dont le corps va le mettre en

@@ -16,7 +16,7 @@ export default {
         this.isError ? 'bg-red-600' : 'bg-green-600',
         'text-gray-100',
         'p-4',
-        'rounded-md',
+        'rounded-lg',
         'shadow',
         'flex',
         'transition-opacity-200',

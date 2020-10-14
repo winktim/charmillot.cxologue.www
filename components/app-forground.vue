@@ -1,9 +1,7 @@
 <template>
-  <section class="relative md:pt-16">
+  <section class="relative">
     <!-- wavy background -->
-    <div
-      class="absolute top-0 w-full h-full flex flex-col drop-shadow-lg-top z-bottom"
-    >
+    <div class="absolute top-0 w-full h-full flex flex-col drop-shadow-lg-top">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 163">
         <path
           style="fill: #e0e0e0; fill-opacity: 1"

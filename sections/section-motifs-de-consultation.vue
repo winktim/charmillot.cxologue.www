@@ -6,6 +6,92 @@
     :bgColor="section.alternateBgColor || section.bgColor"
     :fgColor="section.fgColor"
   >
+    <div class="flex flex-col md:flex-row justify-center">
+      <!-- first column -->
+      <ul
+        class="flex flex-col items-center text-gray-100 md:items-start mb-4 md:mb-0"
+      >
+        <li
+          class="py-6 px-10 mb-4 rounded-xl shadow-md bg-c-red-3 flex flex-col items-center md:mr-4"
+        >
+          <h3 class="font-bold text-xl text-center mb-1">
+            Apprendre sa sexualité
+          </h3>
+          <ul class="list-disc pl-6">
+            <li>Développer de nouvelles compétences</li>
+            <li>Développer de nouvelles compétences</li>
+            <li>S’adapter à son, sa ou ses partenaires</li>
+          </ul>
+        </li>
+        <li
+          class="py-6 px-10 my-4 rounded-xl shadow-md bg-c-violet-1 flex flex-col items-center md:mr-4"
+        >
+          <h3 class="font-bold text-xl text-center mb-1">
+            Pallier à des difficultés relationnelles
+          </h3>
+          <ul class="list-disc pl-6">
+            <li>Questionnement amoureux</li>
+            <li>Confusion</li>
+            <li>Communication</li>
+            <li>Séduction</li>
+            <li>Orientation</li>
+            <li>Identité</li>
+          </ul>
+        </li>
+
+        <li
+          class="py-6 px-10 mt-4 rounded-xl shadow-md bg-c-red-3 flex flex-col items-center md:mr-4"
+        >
+          <h3 class="font-bold text-xl text-center mb-1">
+            Soigner une dépendance
+          </h3>
+          <ul class="list-disc pl-6">
+            <li>Masturbation</li>
+            <li>Porno</li>
+            <li>Pratiques sexuelles</li>
+            <li>Sexualités diverses</li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- second column -->
+      <ul
+        class="flex flex-col items-center text-gray-100 md:items-end mt-4 md:mt-0"
+      >
+        <li
+          class="py-6 px-10 mb-4 md:mb-0 md:mt-4 rounded-xl shadow-md bg-c-violet-1 flex flex-col items-center md:ml-4 md:order-1"
+        >
+          <h3 class="font-bold text-xl text-center mb-1">
+            Remédier à un disfonctionnement sexuel
+          </h3>
+          <ul class="list-disc pl-6">
+            <li>Perte érection</li>
+            <li>Gestion éjaculation</li>
+            <li>Anorgasmie</li>
+            <li>Vaginisme</li>
+            <li>Douleurs</li>
+            <li>Blocage</li>
+          </ul>
+        </li>
+        <li
+          class="py-6 px-10 mt-4 md:mt-0 md:mb-4 rounded-xl shadow-md bg-c-red-3 flex flex-col items-center md:ml-4"
+        >
+          <h3 class="font-bold text-xl text-center mb-1">
+            Améliorer sa satisfaction sexuelle
+          </h3>
+          <ul class="list-disc pl-6">
+            <li>Plaisir</li>
+            <li>Désir</li>
+            <li>Relation</li>
+            <li>Orgasme</li>
+            <li>Perturbation</li>
+            <li>Variation</li>
+            <li>Intensité</li>
+            <li>Érotisme</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </app-section>
 </template>
 <script>

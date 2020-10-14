@@ -17,7 +17,7 @@
 .popup {
   &.confirmable {
     &[data-popup-show='true'] {
-      @apply rounded-md bg-red-600 text-gray-100 shadow-lg;
+      @apply rounded-lg bg-red-600 text-gray-100 shadow-lg;
     }
   }
 
@@ -25,7 +25,7 @@
     @apply relative;
 
     &::after {
-      @apply z-10 absolute right-full mr-1 shadow-lg w-48 bg-gray-800 text-gray-100 p-3 text-sm rounded-md text-center pointer-events-none;
+      @apply z-10 absolute right-full mr-1 shadow-lg w-48 bg-gray-800 text-gray-100 p-3 text-sm rounded-lg text-center pointer-events-none;
       content: attr(data-popup-text);
 
       @media (min-width: theme('screens.md')) {
@@ -124,11 +124,11 @@
   @apply relative;
 
   > label {
-    @apply select-none absolute pointer-events-none w-full h-full bg-gray-100 py-2 pl-3 pr-8 text-gray-900 rounded-md;
+    @apply select-none absolute pointer-events-none w-full h-full bg-gray-100 py-2 pl-3 pr-8 text-gray-900 rounded-lg;
   }
 
   > select {
-    @apply w-full h-full block appearance-none bg-gray-100 py-2 pl-3 pr-8 text-gray-900 rounded-md;
+    @apply w-full h-full block appearance-none bg-gray-100 py-2 pl-3 pr-8 text-gray-900 rounded-lg;
 
     &:focus {
       @apply outline-none shadow-outline;
@@ -181,7 +181,7 @@
 
 .wrapped-single-transparent-input {
   > .wrapped-style {
-    @apply z-bottom bg-gray-100 rounded-md transition-border-radius-200;
+    @apply z-bottom bg-gray-100 rounded-lg transition-border-radius-200;
   }
 
   > input {
@@ -221,7 +221,7 @@
 }
 
 .range-slider__range {
-  @apply bg-gray-100 appearance-none h-3 rounded-md outline-none p-0 m-0;
+  @apply bg-gray-100 appearance-none h-3 rounded-lg outline-none p-0 m-0;
 
   &::-moz-range-track {
     // Firefox Mobile Fix

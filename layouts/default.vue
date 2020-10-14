@@ -29,6 +29,16 @@
         qui devrait déjà se trouver sur votre ordinateur.
       </span>
     </div>
+
+    <!-- back to top -->
+    <a
+      title="Revenir en haut de la page"
+      aria-label="Revenir en haut de la page"
+      href="#top"
+      class="back-to-top transition-opacity-200 opacity-1 pointer-events-auto fixed bottom-0 right-0 mb-12 mr-4 md:mr-8 p-6 rounded-full shadow-lg bg-gray-100 border-solid border-4 border-gray-300 flex items-center hover:lighten-5 z-10"
+    >
+      <i class="material-icons text-xl">arrow_upward</i>
+    </a>
   </div>
 </template>
 <script>
