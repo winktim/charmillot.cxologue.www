@@ -6,7 +6,7 @@ const env = process.env.NODE_ENV
 const envPath = resolve(process.cwd(), `env.${env}.js`)
 const defaultEnvPath = resolve(process.cwd(), 'env.example.js')
 
-export default function() {
+export default function () {
   const envFile = existsSync(envPath) ? envPath : defaultEnvPath
   copyFileSync(envFile, __dirname + '/static/env.js')
 }
