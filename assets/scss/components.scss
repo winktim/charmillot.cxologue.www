@@ -303,6 +303,15 @@ $opacity: 0.7;
 .slider {
   -webkit-overflow-scrolling: touch;
   scroll-snap-type: x mandatory;
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .slide {
