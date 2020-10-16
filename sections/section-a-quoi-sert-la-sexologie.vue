@@ -6,7 +6,7 @@
     :bgColor="section.alternateBgColor || section.bgColor"
     :fgColor="section.fgColor"
   >
-    <p>
+    <p class="drop-cap">
       Dans notre société, nous parlons beaucoup de l’importance de maintenir une
       bonne santé physique, mentale, relationnelle et aussi une bonne
       <u>santé sexuelle</u>. Mais, comment évaluer notre santé sexuelle? Quel

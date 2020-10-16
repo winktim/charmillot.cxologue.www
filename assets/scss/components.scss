@@ -262,3 +262,18 @@
     }
   }
 }
+
+.drop-cap:first-letter {
+  @apply float-left text-4xl leading-none mr-1;
+}
+
+.list-stars {
+  @apply list-none;
+
+  > li {
+    @apply pl-8 my-3;
+    background-image: url('/images/list-star.svg');
+    background-repeat: no-repeat;
+    background-position: 0 center;
+  }
+}
