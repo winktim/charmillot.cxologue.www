@@ -1,5 +1,5 @@
 <template>
-  <section class="relative">
+  <section class="relative w-full">
     <!-- wavy background -->
     <div class="absolute top-0 w-full h-full flex flex-col drop-shadow-lg-top">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 163">

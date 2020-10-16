@@ -14,6 +14,8 @@
       <section-parcours-professionnel></section-parcours-professionnel>
       <section-motifs-de-consultation></section-motifs-de-consultation>
       <section-synthese-de-l-approche></section-synthese-de-l-approche>
+      <section-actualites></section-actualites>
+      <section-prendre-contact></section-prendre-contact>
     </app-forground>
   </div>
 </template>
@@ -24,7 +26,9 @@ import AppForground from '../components/app-forground'
 import SectionAQuoiSertLaSexologie from '../sections/section-a-quoi-sert-la-sexologie'
 import SectionParcoursProfessionnel from '../sections/section-parcours-professionnel'
 import SectionMotifsDeConsultation from '../sections/section-motifs-de-consultation'
-import SectionSyntheseDeLApproche from '../sections/section-synthese-de-l-approche.vue'
+import SectionSyntheseDeLApproche from '../sections/section-synthese-de-l-approche'
+import SectionActualites from '../sections/section-actualites'
+import SectionPrendreContact from '../sections/section-prendre-contact'
 
 export default {
   name: 'Index',
@@ -36,6 +40,8 @@ export default {
     SectionParcoursProfessionnel,
     SectionMotifsDeConsultation,
     SectionSyntheseDeLApproche,
+    SectionActualites,
+    SectionPrendreContact,
   },
   // TODO: too laggy
   /*

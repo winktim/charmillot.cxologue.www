@@ -70,7 +70,7 @@ export default {
   modules: ['nuxt-purgecss'],
 
   purgeCSS: {
-    paths: ['sections/**/*.vue'],
+    paths: ['sections/**/*.vue', 'actualites/**/*.vue'],
     whitelist: [
       'bg-c-violet-1',
       'text-c-violet-1',

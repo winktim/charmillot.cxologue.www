@@ -3,8 +3,8 @@
     :id="section.id"
     :title="section.title"
     :image="section.image"
-    :bgColor="section.alternateBgColor || section.bgColor"
-    :fgColor="section.fgColor"
+    :bg-color="section.alternateBgColor || section.bgColor"
+    :fg-color="section.alternateFgColor || section.fgColor"
   >
     <p class="drop-cap">
       L’approche sexocorporelle, créée il y a une cinquantaine d’années par le
