@@ -20,7 +20,7 @@
 
     <form action="" class="flex flex-col mx-2 md:w-160 md:mx-auto">
       <input
-        class="py-2 px-4 rounded-lg shadow-md mb-2"
+        class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Nom"
         type="text"
         name="lastname-input"
@@ -28,7 +28,7 @@
         placeholder="Nom *"
       />
       <input
-        class="py-2 px-4 rounded-lg shadow-md mb-2"
+        class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Prénom"
         type="text"
         name="firstname-input"
@@ -36,7 +36,7 @@
         placeholder="Prénom *"
       />
       <input
-        class="py-2 px-4 rounded-lg shadow-md mb-2"
+        class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Email"
         type="email"
         name="email-input"
@@ -44,7 +44,7 @@
         placeholder="Email *"
       />
       <input
-        class="py-2 px-4 rounded-lg shadow-md mb-2"
+        class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Téléphone"
         type="tel"
         name="phone-input"
@@ -52,7 +52,7 @@
         placeholder="Téléphone"
       />
       <textarea
-        class="py-2 px-4 rounded-lg shadow-md mb-2"
+        class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Message"
         name="message-input"
         id="message-input"
@@ -60,7 +60,7 @@
         placeholder="Message *"
       ></textarea>
       <input
-        class="py-2 px-4 rounded-lg shadow-md mb-4"
+        class="py-2 px-4 rounded-lg shadow-sm mb-4"
         aria-label="Sécurité: quelle lettre apparaît 2 fois dans le logo du site ?"
         type="text"
         name="security-input"
