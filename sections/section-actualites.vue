@@ -110,7 +110,6 @@ export default {
       }
     },
     setToHash(current) {
-      console.log('setting to hash')
       const hash = `#actualite-${current}`
       // ignore NavigationDuplicate
       this.$router.replace(

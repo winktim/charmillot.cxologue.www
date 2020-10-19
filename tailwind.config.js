@@ -13,6 +13,7 @@ module.exports = {
       'screen': '100vw',
       '-screen': '-100vw',
       'quarter': '90deg',
+      'half': '180deg',
 
       ...theme('spacing'),
       ...negative(theme('spacing')),
@@ -89,10 +90,11 @@ module.exports = {
         200: '50rem',
       },
       height: {
-        18: '4.5rem',
-        76: '19rem',
-        100: '25rem',
-        200: '50rem',
+        '18': '4.5rem',
+        '76': '19rem',
+        '100': '25rem',
+        '200': '50rem',
+        'big-screen': '130vh',
       },
       maxHeight: {
         200: '50rem',
@@ -121,6 +123,7 @@ module.exports = {
       },
       zIndex: {
         bottom: '-1',
+        underworld: '-2',
       },
       screens: {
         'fake-select': '450px',

@@ -8,7 +8,7 @@
       class="w-full h-screen header-image absolute z-bottom bg-fixed md:bg-local md:parallax-background"
     ></div>
     <app-header></app-header>
-    <app-forground class="flex flex-col mt-64">
+    <app-forground>
       <app-menu></app-menu>
       <section-a-quoi-sert-la-sexologie></section-a-quoi-sert-la-sexologie>
       <section-parcours-professionnel></section-parcours-professionnel>
@@ -17,6 +17,7 @@
       <section-actualites></section-actualites>
       <section-prendre-contact></section-prendre-contact>
     </app-forground>
+    <app-footer></app-footer>
   </div>
 </template>
 <script>
@@ -29,6 +30,7 @@ import SectionMotifsDeConsultation from '../sections/section-motifs-de-consultat
 import SectionSyntheseDeLApproche from '../sections/section-synthese-de-l-approche'
 import SectionActualites from '../sections/section-actualites'
 import SectionPrendreContact from '../sections/section-prendre-contact'
+import AppFooter from '../components/app-footer'
 
 export default {
   name: 'Index',
@@ -42,6 +44,7 @@ export default {
     SectionSyntheseDeLApproche,
     SectionActualites,
     SectionPrendreContact,
+    AppFooter,
   },
   // TODO: too laggy
   /*

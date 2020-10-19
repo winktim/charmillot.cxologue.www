@@ -115,6 +115,13 @@ $parallax-perspective: 8px;
     transform: translateZ($distance * 1px)
       scale(parallax-scale-factor($distance));
   }
+
+  .md\:parallax-footer {
+    $distance: -8;
+    transform-origin: 0;
+    transform: translateZ($distance * 1px)
+      scale(parallax-scale-factor($distance));
+  }
 }
 
 .drop-shadow-lg-top {
@@ -125,3 +132,22 @@ html[data-scroll='0'] .back-to-top {
   @apply opacity-0 pointer-events-none;
 }
 */
+
+.map-image {
+  background-image: url(/images/map.jpg);
+  background-position: center;
+  background-size: 200%;
+  @screen sm {
+    background-size: cover;
+  }
+}
+
+.footer-image {
+  background-image: url(/images/body_1_low.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.text-shadow-md {
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
