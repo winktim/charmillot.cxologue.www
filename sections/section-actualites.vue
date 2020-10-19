@@ -75,11 +75,12 @@ export default {
       this.ratio = this.$refs.scroller.scrollWidth / this.numActualites
       const raw = this.$refs.scroller.scrollLeft / this.ratio
       const round = Math.round(raw)
+      const last = this.current - 1
       this.current = round + 1
 
       // only when we are finished scrolling do we store
       // otherwise, infinite loop
-      if (raw === round) {
+      if (raw === round && round !== last) {
         this.setToHash(this.current)
       }
     }
