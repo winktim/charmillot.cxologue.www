@@ -26,6 +26,7 @@
         name="lastname-input"
         id="lastname-input"
         placeholder="Nom *"
+        required
       />
       <input
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
@@ -34,6 +35,7 @@
         name="firstname-input"
         id="firstname-input"
         placeholder="Prénom *"
+        required
       />
       <input
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
@@ -42,6 +44,7 @@
         name="email-input"
         id="email-input"
         placeholder="Email *"
+        required
       />
       <input
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
@@ -58,6 +61,7 @@
         id="message-input"
         rows="10"
         placeholder="Message *"
+        required
       ></textarea>
       <input
         class="py-2 px-4 rounded-lg shadow-sm mb-4"
@@ -66,6 +70,7 @@
         name="security-input"
         id="security-input"
         placeholder="Sécurité *: quelle lettre apparaît 2 fois dans le logo du site ?"
+        required
       />
       <p>
         <span class="text-gray-600"
