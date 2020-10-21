@@ -7,11 +7,11 @@
       Prendre contact par téléphone
     </h2>
     <a
-      href="tel:+41781234567"
+      href="tel:+41775027543"
       class="rounded-lg bg-c-violet-3 p-3 shadow-md text-gray-100 flex items-center justify-center mx-auto max-w-full w-48"
     >
       <span class="material-icons select-none">phone</span>
-      <span class="font-bold ml-4">078 123 45 67</span>
+      <span class="font-bold ml-4">077 502 75 43</span>
     </a>
 
     <h2 class="font-heading text-2xl text-center mt-12 mb-4">
@@ -92,7 +92,7 @@
 
     <div class="mx-2 md:w-160 md:mx-auto">
       <p>
-        <strong>Consultation sur rdv à Delémont, en matiné ou en soirée</strong
+        <strong>Consultation sur rdv à Delémont, en matinée ou en soirée</strong
         ><br />
         Dans les locaux du centre de santé sexuelle-planning familial (en dehors
         des heures d’ouverture)<br />
