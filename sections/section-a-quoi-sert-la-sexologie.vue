@@ -3,10 +3,10 @@
     :id="section.id"
     :title="section.title"
     :image="section.image"
-    :bgColor="section.alternateBgColor || section.bgColor"
-    :fgColor="section.fgColor"
+    :bg-color="section.alternateBgColor || section.bgColor"
+    :fg-color="section.alternateFgColor || section.fgColor"
   >
-    <p>
+    <p class="drop-cap">
       Dans notre société, nous parlons beaucoup de l’importance de maintenir une
       bonne santé physique, mentale, relationnelle et aussi une bonne
       <u>santé sexuelle</u>. Mais, comment évaluer notre santé sexuelle? Quel

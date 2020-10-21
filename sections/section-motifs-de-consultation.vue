@@ -3,8 +3,8 @@
     :id="section.id"
     :title="section.title"
     :image="section.image"
-    :bgColor="section.alternateBgColor || section.bgColor"
-    :fgColor="section.fgColor"
+    :bg-color="section.alternateBgColor || section.bgColor"
+    :fg-color="section.alternateFgColor || section.fgColor"
   >
     <div class="flex flex-col md:flex-row justify-center">
       <!-- first column -->
@@ -19,7 +19,7 @@
           </h3>
           <ul class="list-disc pl-6 min-w-1/2">
             <li>Développer de nouvelles compétences</li>
-            <li>Développer de nouvelles compétences</li>
+            <li>Évoluer avec sa situation et son âge</li>
             <li>S’adapter à son, sa ou ses partenaires</li>
           </ul>
         </li>

@@ -50,7 +50,9 @@ export const state = () => ({
         title: 'Actualités',
         image: '/images/flowers_4.jpg',
         bgColor: 'c-red-2',
+        alternateBgColor: 'gray-100',
         fgColor: 'gray-100',
+        alternateFgColor: 'gray-900',
         id: 'actualites',
       },
       {
@@ -62,6 +64,23 @@ export const state = () => ({
       },
     ],
   },
+
+  actualites: [
+    {
+      title: 'Lancement du site web',
+      date: '6 octobre 2020',
+      image: '/images/actualites/lancement-du-site-web.jpg',
+      lightImage: false,
+      id: 'actualite-1',
+    },
+    {
+      title: 'Test N°1',
+      date: '31 février 2012',
+      image: '/images/actualites/lancement-du-site-web.jpg',
+      lightImage: false,
+      id: 'actualite-2',
+    },
+  ],
 })
 
 export const mutations = {
@@ -103,4 +122,5 @@ export const actions = {
 
 export const getters = {
   sections: (state) => state.sections,
+  actualites: (state) => state.actualites,
 }

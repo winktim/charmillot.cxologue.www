@@ -8,13 +8,16 @@
       class="w-full h-screen header-image absolute z-bottom bg-fixed md:bg-local md:parallax-background"
     ></div>
     <app-header></app-header>
-    <app-forground class="flex flex-col mt-64">
+    <app-forground>
       <app-menu></app-menu>
       <section-a-quoi-sert-la-sexologie></section-a-quoi-sert-la-sexologie>
       <section-catherine-charmillot></section-catherine-charmillot>
       <section-motifs-de-consultation></section-motifs-de-consultation>
       <section-synthese-de-l-approche></section-synthese-de-l-approche>
+      <section-actualites></section-actualites>
+      <section-prendre-contact></section-prendre-contact>
     </app-forground>
+    <app-footer></app-footer>
   </div>
 </template>
 <script>
@@ -24,7 +27,10 @@ import AppForground from '../components/app-forground'
 import SectionAQuoiSertLaSexologie from '../sections/section-a-quoi-sert-la-sexologie'
 import SectionCatherineCharmillot from '../sections/section-catherine-charmillot'
 import SectionMotifsDeConsultation from '../sections/section-motifs-de-consultation'
-import SectionSyntheseDeLApproche from '../sections/section-synthese-de-l-approche.vue'
+import SectionSyntheseDeLApproche from '../sections/section-synthese-de-l-approche'
+import SectionActualites from '../sections/section-actualites'
+import SectionPrendreContact from '../sections/section-prendre-contact'
+import AppFooter from '../components/app-footer'
 
 export default {
   name: 'Index',
@@ -36,6 +42,9 @@ export default {
     SectionCatherineCharmillot,
     SectionMotifsDeConsultation,
     SectionSyntheseDeLApproche,
+    SectionActualites,
+    SectionPrendreContact,
+    AppFooter,
   },
   // TODO: too laggy
   /*

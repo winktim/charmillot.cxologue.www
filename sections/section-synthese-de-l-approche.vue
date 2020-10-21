@@ -3,10 +3,10 @@
     :id="section.id"
     :title="section.title"
     :image="section.image"
-    :bgColor="section.alternateBgColor || section.bgColor"
-    :fgColor="section.fgColor"
+    :bg-color="section.alternateBgColor || section.bgColor"
+    :fg-color="section.alternateFgColor || section.fgColor"
   >
-    <p>
+    <p class="drop-cap">
       L’approche sexocorporelle, créée il y a une cinquantaine d’années par le
       Dr Jean-Yves Desjardins, est une approche de sexologie clinique. La
       distinction entre santé mentale et santé sexuelle a permis son
@@ -17,7 +17,7 @@
       autour de cinq axes de la sexualité humaine :
     </p>
 
-    <ul>
+    <ul class="my-6 list-stars">
       <li>
         Les composantes FONDAMENTALES<br />
         Identité chromosomique, identité de genre, réflexes sexuels
@@ -54,7 +54,7 @@
       du plaisir, et diminuer ou augmenter l’intensité de nos émotions et de nos
       charges sexuelles. L’un influence l’autre, et vice-versa.
     </p>
-
+    <br />
     <p>
       Grâce aux discussions lors des consultations, l’analyse et l’observation
       des divers axes permettront de dévoiler la « logique de système » de la
@@ -65,7 +65,7 @@
       pour développer de nouvelles habiletés afin d’atteindre ses objectifs et
       ses besoins.
     </p>
-
+    <br />
     <p>
       Les outils thérapeutiques du sexocorporel sont d’ordre verbal (entretien
       de consultation) et corporel (programme d’exercices à réaliser à la

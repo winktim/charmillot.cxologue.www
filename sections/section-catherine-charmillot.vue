@@ -3,8 +3,8 @@
     :id="section.id"
     :title="section.title"
     :image="section.image"
-    :bgColor="section.alternateBgColor || section.bgColor"
-    :fgColor="section.fgColor"
+    :bg-color="section.alternateBgColor || section.bgColor"
+    :fg-color="section.alternateFgColor || section.fgColor"
   >
     <div class="flex flex-col lg:flex-row lg:mb-4">
       <div>

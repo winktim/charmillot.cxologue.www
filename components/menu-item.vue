@@ -11,7 +11,7 @@
       v-text="item.title"
     ></span>
     <span
-      :class="`w-full md:w-1/2 lg:w-auto text-center rounded-lg py-2 md:py-4 px-12 mt-8 bg-${item.fgColor} text-${item.bgColor} z-10`"
+      :class="`w-full md:w-1/2 lg:w-auto text-center rounded-lg py-2 md:py-4 px-12 mt-8 bg-${item.fgColor} text-${item.bgColor} z-10 select-none`"
     >
       Voir plus
     </span>
