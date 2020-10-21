@@ -8,8 +8,7 @@
   >
     <div class="flex flex-col lg:flex-row lg:mb-4">
       <div>
-        <p>C'XOLOGUE est oppéré par Catherine Charmillot.</p>
-        <h3 class="font-bold pt-2 pb-1">Reconnaissances</h3>
+        <h3 class="font-bold pb-1">Reconnaissances</h3>
         <ul class="list-disc pl-6">
           <li>
             Diplôme d’études avancées (DAS) en santé sexuelle et reproductive

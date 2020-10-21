@@ -11,7 +11,7 @@
     <app-forground class="flex flex-col mt-64">
       <app-menu></app-menu>
       <section-a-quoi-sert-la-sexologie></section-a-quoi-sert-la-sexologie>
-      <section-parcours-professionnel></section-parcours-professionnel>
+      <section-catherine-charmillot></section-catherine-charmillot>
       <section-motifs-de-consultation></section-motifs-de-consultation>
       <section-synthese-de-l-approche></section-synthese-de-l-approche>
     </app-forground>
@@ -22,7 +22,7 @@ import AppHeader from '../components/app-header'
 import AppMenu from '../components/app-menu'
 import AppForground from '../components/app-forground'
 import SectionAQuoiSertLaSexologie from '../sections/section-a-quoi-sert-la-sexologie'
-import SectionParcoursProfessionnel from '../sections/section-parcours-professionnel'
+import SectionCatherineCharmillot from '../sections/section-catherine-charmillot'
 import SectionMotifsDeConsultation from '../sections/section-motifs-de-consultation'
 import SectionSyntheseDeLApproche from '../sections/section-synthese-de-l-approche.vue'
 
@@ -33,7 +33,7 @@ export default {
     AppMenu,
     AppForground,
     SectionAQuoiSertLaSexologie,
-    SectionParcoursProfessionnel,
+    SectionCatherineCharmillot,
     SectionMotifsDeConsultation,
     SectionSyntheseDeLApproche,
   },

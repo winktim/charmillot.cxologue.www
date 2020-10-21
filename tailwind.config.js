@@ -105,6 +105,7 @@ module.exports = {
       },
       minWidth: {
         '64': '16rem',
+        '1/2': '50%',
         '2/3': '66.66%',
       },
       fontFamily: {

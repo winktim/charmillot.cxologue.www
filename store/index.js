@@ -22,12 +22,12 @@ export const state = () => ({
         id: 'a-quoi-sert-la-sexologie',
       },
       {
-        title: 'Parcours professionnel',
+        title: 'Catherine Charmillot',
         image: '/images/body_1_low.jpg',
         bgColor: 'c-red-1',
         alternateBgColor: 'c-red-3',
         fgColor: 'gray-100',
-        id: 'parcours-professionnel',
+        id: 'catherine-charmillot',
       },
       {
         title: 'Motifs de consultation',

@@ -17,7 +17,7 @@
           <h3 class="font-bold text-xl text-center mb-1">
             Apprendre sa sexualité
           </h3>
-          <ul class="list-disc pl-6">
+          <ul class="list-disc pl-6 min-w-1/2">
             <li>Développer de nouvelles compétences</li>
             <li>Développer de nouvelles compétences</li>
             <li>S’adapter à son, sa ou ses partenaires</li>
@@ -29,7 +29,7 @@
           <h3 class="font-bold text-xl text-center mb-1">
             Pallier à des difficultés relationnelles
           </h3>
-          <ul class="list-disc pl-6">
+          <ul class="list-disc pl-6 min-w-1/2">
             <li>Questionnement amoureux</li>
             <li>Confusion</li>
             <li>Communication</li>
@@ -43,9 +43,9 @@
           class="py-6 px-10 mt-4 rounded-xl shadow-md bg-c-red-3 flex flex-col items-center md:mr-4"
         >
           <h3 class="font-bold text-xl text-center mb-1">
-            Soigner une dépendance
+            Soigner une addiction
           </h3>
-          <ul class="list-disc pl-6">
+          <ul class="list-disc pl-6 min-w-1/2">
             <li>Masturbation</li>
             <li>Porno</li>
             <li>Pratiques sexuelles</li>
@@ -64,7 +64,7 @@
           <h3 class="font-bold text-xl text-center mb-1">
             Remédier à un disfonctionnement sexuel
           </h3>
-          <ul class="list-disc pl-6">
+          <ul class="list-disc pl-6 min-w-1/2">
             <li>Perte érection</li>
             <li>Gestion éjaculation</li>
             <li>Anorgasmie</li>
@@ -79,7 +79,7 @@
           <h3 class="font-bold text-xl text-center mb-1">
             Améliorer sa satisfaction sexuelle
           </h3>
-          <ul class="list-disc pl-6">
+          <ul class="list-disc pl-6 min-w-1/2">
             <li>Plaisir</li>
             <li>Désir</li>
             <li>Relation</li>
