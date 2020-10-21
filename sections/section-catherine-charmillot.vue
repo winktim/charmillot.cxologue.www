@@ -12,10 +12,13 @@
         <ul class="list-disc pl-6">
           <li>
             Diplôme d’études avancées (DAS) en santé sexuelle et reproductive
+            (2006-2008)
           </li>
-          <li>Éducatrice et conseillère en santé sexuelle</li>
-          <li>Formatrice en santé sexuelle</li>
-          <li>Sexologue 2ème niveau de formation en sexocorporel</li>
+          <li>Éducatrice et conseillère en santé sexuelle (2013)</li>
+          <li>Formatrice en santé sexuelle (2014)</li>
+          <li>
+            Sexologue 2ème niveau de formation en sexocorporel (2016-2020)
+          </li>
         </ul>
         <br />
         <p>
