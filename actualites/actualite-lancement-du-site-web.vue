@@ -6,15 +6,12 @@
     :image="actualite.image"
     :light-image="actualite.lightImage"
   >
-    <p>
-      Bienvenue sur le nouveau site
-      <img
-        class="inline h-8 ml-1"
-        src="/images/logo-colors.svg"
-        alt="C'XOLOGUE"
-      />
-    </p>
-    <br />
+    <p class="text-center">Bienvenue</p>
+    <img
+      class="h-8 mx-auto mt-1 mb-2"
+      src="/images/logo-colors.svg"
+      alt="C'XOLOGUE"
+    />
     <p>
       A tout âge la sexualité s’apprend et se développe semblable à un
       savoir-faire corporel.
