@@ -39,7 +39,7 @@
       </div>
       <img
         class="rounded-lg shadow-md my-4 lg:my-0 lg:ml-8 md:w-100 md:mx-auto lg:h-100 lg:w-auto lg:mx-0"
-        src="/images/profil.jpg"
+        src="/images/profil.webp"
         alt="Profil de Catherine Charmillot"
       />
     </div>
