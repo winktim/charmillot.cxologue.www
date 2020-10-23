@@ -71,7 +71,6 @@ export default {
 
     window.onresize = () => {
       this.ratio = this.$refs.scroller.scrollWidth / this.numActualites
-      console.log(this.ratio)
     }
 
     this.setFromHash(this.$route.hash)
