@@ -19,7 +19,7 @@
 
     <form
       action=""
-      class="flex flex-col mx-2 md:w-160 md:mx-auto placeholder-gray-800"
+      class="flex flex-col mx-2 md:w-160 md:mx-auto placeholder-gray-750"
     >
       <input
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
