@@ -76,7 +76,7 @@
         <span class="text-gray-600"
           >Les champs marqués d’une * sont requis. </span
         ><br />
-        Mme Charmillot prendra contact avec vous aussi tôt que possible.
+        Catherine Charmillot prendra contact avec vous aussi tôt que possible.
       </p>
 
       <button
