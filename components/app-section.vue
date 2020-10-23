@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:p-2 lg:p-8 xl:px-40 my-16 lg:my-8 z-10">
+  <div :id="id" class="sm:p-2 lg:p-8 xl:px-40 my-16 lg:my-8 z-10">
     <section
       :class="`relative bg-${bgColor} text-${fgColor} sm:rounded-lg shadow-md ${
         minHeightScreen ? 'min-h-screen sm:min-h-0' : ''
@@ -14,7 +14,12 @@
       ></div>
       <!-- content -->
       <div :class="`p-8 md:px-16 ${paddingBottom ? 'pb-16 md:pb-24' : ''}`">
-        <h2 class="font-heading text-2xl text-center mb-8" v-text="title"></h2>
+        <a :href="`#${id}`">
+          <h2
+            class="font-heading text-2xl text-center mb-8"
+            v-text="title"
+          ></h2>
+        </a>
         <slot></slot>
       </div>
     </section>
@@ -24,6 +29,10 @@
 export default {
   name: 'AppSection',
   props: {
+    id: {
+      type: String,
+      required: true,
+    },
     title: {
       type: String,
       required: true,
