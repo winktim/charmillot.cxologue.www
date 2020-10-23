@@ -145,12 +145,6 @@ html[data-scroll='0'] .back-to-top {
   }
 }
 
-.footer-image {
-  background-image: url(/images/body_1_low.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
 .text-shadow-md {
   text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
 }
@@ -158,5 +152,32 @@ html[data-scroll='0'] .back-to-top {
 .placeholder-gray-750 {
   ::placeholder {
     @apply text-gray-750;
+  }
+}
+
+// put backgroud image on body so that firefox mobile doesn't trim it
+// with it's nav bar
+body:before {
+  content: '';
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(/images/body_1_low.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// traget IOS and replace fixed backgrounds with scrolling ones
+// https://stackoverflow.com/a/52266360
+// https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout
+@supports (-webkit-touch-callout: inherit) {
+  .bg-fixed {
+    background-attachment: scroll !important;
   }
 }
