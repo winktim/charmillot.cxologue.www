@@ -17,26 +17,26 @@
       autour de cinq axes de la sexualité humaine :
     </p>
 
-    <ul class="my-6 list-stars">
-      <li>
+    <ul class="list-disc my-6 pl-6">
+      <li class="my-3">
         Les composantes FONDAMENTALES<br />
         Identité chromosomique, identité de genre, réflexes sexuels
       </li>
-      <li>
+      <li class="my-3">
         Les composantes PHYSIOLOGIQUES<br />
         capacité à ressentir son corps, sources, modes et courbe d’excitation
       </li>
-      <li>
+      <li class="my-3">
         Les composantes COGNITIVES<br />
         Système de pensées, connaissances, croyances, idéologies, jugements de
         valeur
       </li>
-      <li>
+      <li class="my-3">
         Les composantes PERSONNELLES<br />
         Désir, imaginaire, assertivité, intensité, codes en lien avec la
         sexualité
       </li>
-      <li>
+      <li class="my-3">
         Les composantes RELATIONNELLES<br />
         Sentiment amoureux, communication, séduction, habiletés érotiques
       </li>
