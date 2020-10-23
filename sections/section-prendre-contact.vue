@@ -1,11 +1,10 @@
 <template>
-  <section
-    id="prendre-contact"
-    class="sm:p-2 lg:p-8 xl:px-40 my-16 lg:my-8 z-10"
-  >
-    <h2 class="font-heading text-2xl text-center mt-2 mb-4">
-      Prendre contact par téléphone
-    </h2>
+  <section :id="section.id" class="sm:p-2 lg:p-8 xl:px-40 my-16 lg:my-8 z-10">
+    <a :href="`#${section.id}`">
+      <h2 class="font-heading text-2xl text-center mt-2 mb-4">
+        Prendre contact par téléphone
+      </h2>
+    </a>
     <a
       href="tel:+41775027543"
       class="rounded-lg bg-c-violet-3 p-3 shadow-md text-gray-100 flex items-center justify-center mx-auto max-w-full w-48"
@@ -123,5 +122,10 @@
 <script>
 export default {
   name: 'SectionPrendreContact',
+  computed: {
+    section() {
+      return this.$store.getters.sections.row2[2]
+    },
+  },
 }
 </script>
