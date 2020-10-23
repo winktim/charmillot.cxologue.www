@@ -12,7 +12,7 @@
         class="flex flex-col items-center text-gray-100 md:items-start mb-4 md:mb-0"
       >
         <li
-          class="py-6 px-10 mb-4 rounded-xl shadow-md bg-c-red-3 flex flex-col items-center md:mr-4 md:ml-16"
+          class="py-6 px-10 mb-4 rounded-xl shadow-md bg-c-red-3 flex flex-col items-center md:mr-4 lg:ml-16"
         >
           <h3 class="font-bold text-xl text-center mb-1">
             Apprendre sa sexualité
@@ -40,7 +40,7 @@
         </li>
 
         <li
-          class="py-6 px-10 mt-4 rounded-xl shadow-md bg-c-red-3 flex flex-col items-center md:mr-4 md:ml-10"
+          class="py-6 px-10 mt-4 rounded-xl shadow-md bg-c-red-3 flex flex-col items-center md:mr-4 lg:ml-10"
         >
           <h3 class="font-bold text-xl text-center mb-1">
             Soigner une addiction
@@ -74,7 +74,7 @@
           </ul>
         </li>
         <li
-          class="py-6 px-10 mt-4 md:mt-0 md:mb-4 rounded-xl shadow-md bg-c-red-3 flex flex-col items-center md:ml-4 md:mr-16"
+          class="py-6 px-10 mt-4 md:mt-0 md:mb-4 rounded-xl shadow-md bg-c-red-3 flex flex-col items-center md:ml-4 lg:mr-16"
         >
           <h3 class="font-bold text-xl text-center mb-1">
             Améliorer sa satisfaction sexuelle
