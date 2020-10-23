@@ -14,6 +14,8 @@
         class="w-full sm:w-120 mx-auto flex justify-between items-center select-none"
       >
         <button
+          aria-label="Actualité précédente"
+          title="Actualité précédente"
           :disabled="singleActualite"
           class="material-icons text-6xl disabled:text-gray-500"
           @click="previous"
@@ -22,6 +24,8 @@
         </button>
         <div class="flex">
           <a
+            :aria-label="`Accéder à l'actualité ${i}`"
+            :title="`Accéder à l'actualité ${i}`"
             v-for="i in numActualites"
             :key="i"
             :href="`#actualite-${i}`"
@@ -33,6 +37,8 @@
           >
         </div>
         <button
+          aria-label="Actualité suivante"
+          title="Actualité suivante"
           :disabled="singleActualite"
           class="material-icons text-6xl disabled:text-gray-500"
           @click="next"
