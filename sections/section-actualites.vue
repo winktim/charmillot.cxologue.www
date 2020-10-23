@@ -21,15 +21,15 @@
           arrow_left
         </button>
         <div class="flex">
-          <nuxt-link
+          <a
             v-for="i in numActualites"
             :key="i"
-            :to="`#actualite-${i}`"
-            replace
+            :href="`#actualite-${i}`"
+            @click="$event.preventDefault() || goTo(i)"
             :class="`material-icons p-4 ${
               current === i ? 'text-gray-900' : 'text-gray-500'
             }`"
-            >lens</nuxt-link
+            >lens</a
           >
         </div>
         <button
@@ -69,10 +69,16 @@ export default {
   mounted() {
     this.ratio = this.$refs.scroller.scrollWidth / this.numActualites
 
+    window.onresize = () => {
+      this.ratio = this.$refs.scroller.scrollWidth / this.numActualites
+      console.log(this.ratio)
+    }
+
+    this.setFromHash(this.$route.hash)
+
     // Reads out the scroll position and stores it in the data attribute
     // so we can use it in our stylesheets
     const onscroll = () => {
-      this.ratio = this.$refs.scroller.scrollWidth / this.numActualites
       const raw = this.$refs.scroller.scrollLeft / this.ratio
       const round = Math.round(raw)
       const last = this.current - 1
@@ -86,55 +92,57 @@ export default {
     }
 
     // Listen for new scroll events, here we debounce our `storeScroll` function
-    this.$refs.scroller.addEventListener('scroll', debounce(onscroll), {
-      passive: true,
-    })
-  },
-  watch: {
-    $route(to) {
-      this.setFromHash(to.hash)
-    },
+    this.$refs.scroller.addEventListener(
+      'touchend',
+      () => {
+        setTimeout(() => {
+          const round = Math.round(this.$refs.scroller.scrollLeft / this.ratio)
+          this.current = round + 1
+          this.setToHash()
+        }, 500)
+      },
+      {
+        passive: true,
+      }
+    )
   },
   methods: {
     setFromHash(hash) {
       if (hash.startsWith('#actualite-')) {
         const current = parseInt(hash.replace('#actualite-', ''))
         if (!isNaN(current)) {
-          // scroll horizontal to reveal correct item
-          // this.$refs.scroller.scrollLeft = (current - 1) * 480
-          this.$refs.scroller.scrollTo({
-            left: (current - 1) * this.ratio,
-            behavior: 'smooth',
-          })
+          this.current = current
+          this.scrollToCurrent()
         }
       }
     },
+
     setToHash(current) {
-      const hash = `#actualite-${current}`
-      // ignore NavigationDuplicate
-      this.$router.replace(
-        hash,
-        () => {},
-        () => {}
-      )
+      const hash = `#actualite-${this.current}`
+      history.replaceState({}, '', hash)
     },
     previous() {
       // removing two then adding one at the end because modulo is zero based. js modulo can return negative values
-      const current = Math.abs((this.current - 2) % this.numActualites) + 1
+      this.current = Math.abs((this.current - 2) % this.numActualites) + 1
 
-      this.$refs.scroller.scrollTo({
-        left: (current - 1) * this.ratio,
-        behavior: 'smooth',
-      })
+      this.scrollToCurrent()
     },
     next() {
       // adding one at the end because modulo is zero based
-      const current = (this.current % this.numActualites) + 1
+      this.current = (this.current % this.numActualites) + 1
 
+      this.scrollToCurrent()
+    },
+    goTo(i) {
+      this.current = i
+      this.scrollToCurrent()
+    },
+    scrollToCurrent() {
       this.$refs.scroller.scrollTo({
-        left: (current - 1) * this.ratio,
+        left: (this.current - 1) * this.ratio,
         behavior: 'smooth',
       })
+      this.setToHash()
     },
   },
   computed: {
