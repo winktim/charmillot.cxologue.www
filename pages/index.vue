@@ -1,12 +1,6 @@
 <template>
-  <div
-    ref="scroller"
-    class="w-screen h-screen overflow-x-hidden relative md:parallax-container"
-  >
-    <div class="absolute pointer-events-none w-full h-1" id="top"></div>
-    <div
-      class="w-full h-screen header-image absolute z-bottom bg-fixed md:bg-local md:parallax-background"
-    ></div>
+  <main class="w-full relative">
+    <div class="w-full h-screen header-image absolute z-bottom bg-fixed"></div>
     <app-header></app-header>
     <app-forground>
       <app-menu></app-menu>
@@ -18,7 +12,7 @@
       <section-prendre-contact></section-prendre-contact>
     </app-forground>
     <app-footer></app-footer>
-  </div>
+  </main>
 </template>
 <script>
 import AppHeader from '../components/app-header'

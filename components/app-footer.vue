@@ -1,11 +1,18 @@
 <template>
-  <footer class="z-underworld -mt-20 md:mt-0">
-    <div
-      class="w-full h-screen md:h-big-screen absolute z-bottom bg-fixed md:bg-local md:parallax-background footer-image"
-    ></div>
-    <div
-      class="absolute z-bottom w-full h-screen md:parallax-footer flex flex-col items-center justify-between"
+  <footer class="relative w-full h-screen">
+    <!-- wavy forground -->
+    <svg
+      class="absolute top-0 w-full drop-shadow-lg rotate-half -mt-px"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 163"
     >
+      <path
+        style="fill: #e0e0e0; fill-opacity: 1"
+        d="m 0,37.169735 30,21.662986 c 30,21.895301 90,64.872799 150,80.553789 60,15.68098 120,2.90388 180,-15.50675 60,-18.7591 120,-43.151738 180,-49.54029 60,-6.388541 120,6.388552 180,0 60,-6.388541 120,-30.781183 180,-37.169735 60,-6.388541 120,6.388552 180,21.662986 60,15.506749 120,34.091617 180,24.799188 60,-9.292439 120,-46.462174 150,-65.047041 L 1440,0 v 167.26381 h -30 c -30,0 -90,0 -150,0 -60,0 -120,0 -180,0 -60,0 -120,0 -180,0 -60,0 -120,0 -180,0 -60,0 -120,0 -180,0 -60,0 -120,0 -180,0 -60,0 -120,0 -180,0 -60,0 -120,0 -150,0 H 0 Z"
+      />
+    </svg>
+    <div class="absolute w-full h-full z-bottom bg-fixed footer-image"></div>
+    <div class="h-full flex flex-col items-center justify-between py-12">
       <img
         class="w-2/3 md:w-100 mx-12 select-none mt-48"
         src="/images/logo-colors.svg"
@@ -13,7 +20,7 @@
       />
 
       <p
-        class="text-gray-100 flex flex-col mx-4 text-shadow-md md:self-start md:ml-12 md:mt-48 xl:ml-80 md:w-60"
+        class="w-60 text-gray-100 flex flex-col mx-4 text-shadow-md md:self-start md:ml-12 md:mt-12 lg:ml-48 xl:ml-80"
       >
         <span class="font-bold italic text-center"
           >«&nbsp;Le sexe apaise les tensions. L'amour les provoque&nbsp;»</span
@@ -21,9 +28,7 @@
         <span class="text-right">Woody Allen</span>
       </p>
 
-      <p
-        class="text-center w-2/3 lg:w-160 text-gray-100 text-shadow-md mb-8 md:-mb-12"
-      >
+      <p class="text-center w-2/3 lg:w-160 text-gray-100 text-shadow-md">
         © 2020 - Catherine Charmillot<br />
         Sauf indication contraire, toutes les images présentent sur ce site sont
         soit la propriété de Catherine Charmillot, soit sont dans le domaine

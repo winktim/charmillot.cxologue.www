@@ -88,6 +88,8 @@ input::-ms-clear {
   background-size: cover;
 }
 
+/*
+// Parallax disabled because hard to work with, and doesn't work on apple devices
 // parallax
 
 $parallax-perspective: 8px;
@@ -123,6 +125,7 @@ $parallax-perspective: 8px;
       scale(parallax-scale-factor($distance));
   }
 }
+*/
 
 .drop-shadow-lg-top {
   filter: drop-shadow(0 -7px 7px rgba(0, 0, 0, 0.1));

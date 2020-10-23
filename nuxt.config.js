@@ -60,10 +60,6 @@ export default {
    */
   plugins: [],
 
-  router: {
-    trailingSlash: false,
-  },
-
   /*
    ** Nuxt.js modules
    */

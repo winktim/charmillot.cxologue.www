@@ -53,12 +53,12 @@
   animation: 300ms ease-in notice-me;
 }
 
-.green-link {
+.violet-link {
   text-decoration: underline;
-  @apply text-green-200;
+  @apply text-c-violet-3;
 
   &:hover {
-    @apply text-green-100;
+    @apply text-c-violet-2;
   }
 }
 
