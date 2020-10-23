@@ -105,15 +105,17 @@
       </p>
 
       <a
-        href="geo:47.36375,7.3481"
+        href="https://goo.gl/maps/qkS9bGLjJZNLBCfB8"
+        rel="noreferrer"
+        target="_blank"
         aria-label="Emplacement sur la carte"
         class="bg-gray-400 map-image flex items-end justify-center rounded-lg shadow-md h-100 my-8"
       >
         <div
-          class="rounded-lg bg-c-violet-3 p-3 mb-8 shadow-lg text-gray-100 flex items-center justify-center max-w-full w-48 select-none"
+          class="rounded-lg bg-c-violet-3 p-3 mb-8 shadow-lg text-gray-100 flex items-center justify-center max-w-full w-56 select-none"
         >
           <span class="material-icons">directions</span>
-          <span class="font-bold ml-4">Ouvrir la carte</span>
+          <span class="font-bold ml-4">Voir sur Google Maps</span>
         </div>
       </a>
     </div>
