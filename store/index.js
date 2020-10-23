@@ -16,14 +16,14 @@ export const state = () => ({
     row1: [
       {
         title: 'À quoi sert la sexologie',
-        image: '/images/flowers_1.webp',
+        image: '/images/flowers_1.jpg',
         bgColor: 'c-violet-1',
         fgColor: 'gray-100',
         id: 'a-quoi-sert-la-sexologie',
       },
       {
         title: 'Catherine Charmillot',
-        image: '/images/body_1_low.webp',
+        image: '/images/body_1_low.jpg',
         bgColor: 'c-red-1',
         alternateBgColor: 'c-red-3',
         fgColor: 'gray-100',
@@ -31,7 +31,7 @@ export const state = () => ({
       },
       {
         title: 'Motifs de consultation',
-        image: '/images/flowers_2.webp',
+        image: '/images/flowers_2.jpg',
         bgColor: 'c-yellow-1',
         alternateBgColor: 'c-yellow-3',
         fgColor: 'gray-900',
@@ -41,14 +41,14 @@ export const state = () => ({
     row2: [
       {
         title: 'Synthèse de l’approche',
-        image: '/images/flowers_3.webp',
+        image: '/images/flowers_3.jpg',
         bgColor: 'c-violet-2',
         fgColor: 'gray-100',
         id: 'synthese-de-l-approche',
       },
       {
         title: 'Actualités',
-        image: '/images/flowers_4.webp',
+        image: '/images/flowers_4.jpg',
         bgColor: 'c-red-2',
         alternateBgColor: 'gray-100',
         fgColor: 'gray-100',
@@ -57,7 +57,7 @@ export const state = () => ({
       },
       {
         title: 'Prendre contact',
-        image: '/images/flowers_5.webp',
+        image: '/images/flowers_5.jpg',
         bgColor: 'c-yellow-2',
         fgColor: 'gray-900',
         id: 'prendre-contact',
@@ -69,14 +69,14 @@ export const state = () => ({
     {
       title: 'Lancement du site web',
       date: '6 octobre 2020',
-      image: '/images/actualites/lancement-du-site-web.webp',
+      image: '/images/actualites/lancement-du-site-web.jpg',
       lightImage: false,
       id: 'actualite-1',
     },
     {
       title: 'Test N°1',
       date: '31 février 2012',
-      image: '/images/actualites/lancement-du-site-web.webp',
+      image: '/images/actualites/lancement-du-site-web.jpg',
       lightImage: false,
       id: 'actualite-2',
     },
