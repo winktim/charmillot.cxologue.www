@@ -154,3 +154,9 @@ html[data-scroll='0'] .back-to-top {
 .text-shadow-md {
   text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
 }
+
+.placeholder-gray-750 {
+  ::placeholder {
+    @apply text-gray-750;
+  }
+}

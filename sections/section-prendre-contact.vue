@@ -17,7 +17,10 @@
       Formulaire de contact
     </h2>
 
-    <form action="" class="flex flex-col mx-2 md:w-160 md:mx-auto">
+    <form
+      action=""
+      class="flex flex-col mx-2 md:w-160 md:mx-auto placeholder-gray-800"
+    >
       <input
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Nom"
@@ -72,7 +75,7 @@
         required
       />
       <p>
-        <span class="text-gray-600"
+        <span class="text-gray-800"
           >Les champs marqués d’une * sont requis. </span
         ><br />
         Catherine Charmillot prendra contact avec vous aussi tôt que possible.
