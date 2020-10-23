@@ -1,5 +1,5 @@
 <template>
-  <div class="font-content w-full flex">
+  <div class="font-content w-full flex overflow-x-hidden">
     <nuxt />
     <message-box></message-box>
     <div
