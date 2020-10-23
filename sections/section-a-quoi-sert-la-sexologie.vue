@@ -19,15 +19,20 @@
       <strong>consentie, conscientisée et diversifiée</strong>.
     </p>
     <br />
+    <p>Durant notre existence,</p>
+    <ul class="list-disc pl-6 mb-6">
+      <li>
+        peuvent survenir des dysfonctionnements, des pertes, des impossibilités,
+        des échecs, des dépendances
+      </li>
+      <li>
+        peuvent naître de nouveaux désirs, souhaits, envies, questionnements,
+        découvertes.
+      </li>
+    </ul>
     <p>
-      Durant notre existence,<br />
-      - peuvent survenir des dysfonctionnements, des pertes, des impossibilités,
-      des échecs, des dépendances<br />
-      - peuvent naître de nouveaux désirs, souhaits, envies, questionnements,
-      découvertes. La sexologie peut améliorer et embellir ces variations.
-    </p>
-    <br />
-    <p>
+      La sexologie peut améliorer et embellir ces variations.
+      <br />
       La sexualité est apprise et évolutive, seul le réflexe neurologique
       d’excitation génitale est inné. La façon dont le corps va le mettre en
       action nécessite un apprentissage qui démarre dès la petite enfance. Quand
