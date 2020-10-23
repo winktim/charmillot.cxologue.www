@@ -25,7 +25,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Consultations de sexologie à Delémont avec Catherine Charmillot, diplômeée en santé sexuelle et reproductive',
+          'Consultations de sexologie à Delémont avec Catherine Charmillot',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
