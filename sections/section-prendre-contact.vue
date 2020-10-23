@@ -65,18 +65,21 @@
         placeholder="Message *"
         required
       ></textarea>
+      <label for="security-input" class="mb-2"
+        >Sécurité: quelle lettre apparaît 2 fois dans le logo du site ?</label
+      >
       <input
         class="py-2 px-4 rounded-lg shadow-sm mb-4"
-        aria-label="Sécurité: quelle lettre apparaît 2 fois dans le logo du site ?"
+        aria-label="Sécurité"
         type="text"
         name="security-input"
         id="security-input"
-        placeholder="Sécurité *: quelle lettre apparaît 2 fois dans le logo du site ?"
+        placeholder="Sécurité *"
         required
       />
       <p>
         <span class="text-gray-800"
-          >Les champs marqués d’une * sont requis. </span
+          >Les champs marqués d’une * sont requis.</span
         ><br />
         Catherine Charmillot prendra contact avec vous aussi tôt que possible.
       </p>
