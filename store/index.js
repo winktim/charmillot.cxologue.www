@@ -74,9 +74,9 @@ export const state = () => ({
       id: 'actualite-1',
     },
     {
-      title: 'Test N°1',
-      date: '31 février 2012',
-      image: '/images/actualites/lancement-du-site-web.jpg',
+      title: 'La citation sous la fleur',
+      date: '24 octobre 2020',
+      image: '/images/actualites/citation-sous-la-fleur.jpg',
       lightImage: false,
       id: 'actualite-2',
     },

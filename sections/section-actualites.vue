@@ -53,7 +53,7 @@
       ></div>
       <div ref="scroller" class="slider w-full flex overflow-x-auto">
         <actualite-lancement-du-site-web></actualite-lancement-du-site-web>
-        <actualite-test></actualite-test>
+        <actualite-citation-sous-la-fleur></actualite-citation-sous-la-fleur>
       </div>
     </div>
   </div>
@@ -62,10 +62,14 @@
 import { debounce } from '../assets/utils'
 import AppSection from '../components/app-section'
 import ActualiteLancementDuSiteWeb from '../actualites/actualite-lancement-du-site-web'
-import ActualiteTest from '../actualites/actualite-test'
+import ActualiteCitationSousLaFleur from '../actualites/actualite-citation-sous-la-fleur'
 export default {
   name: 'SectionActualites',
-  components: { AppSection, ActualiteLancementDuSiteWeb, ActualiteTest },
+  components: {
+    AppSection,
+    ActualiteLancementDuSiteWeb,
+    ActualiteCitationSousLaFleur,
+  },
   data() {
     return {
       current: 1,
