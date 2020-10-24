@@ -18,15 +18,35 @@
     </h2>
 
     <form
-      action=""
+      method="post"
+      action="https://contact.cxologue.ch/cgi-bin/FormMail.pl"
       class="flex flex-col mx-2 md:w-160 md:mx-auto placeholder-gray-750"
     >
+      <input
+        type="hidden"
+        name="subject"
+        value="Formulaire de contact C'XOLOGUE"
+      />
+      <input
+        type="hidden"
+        name="redirect"
+        :value="`${
+          location ? location.origin : 'https://cxologue.ch'
+        }#prendre-contact?submitted`"
+      />
+
+      <input
+        type="hidden"
+        name="sort"
+        value="order:realname,firstname,email,phone,message"
+      />
+
       <input
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Nom"
         type="text"
-        name="lastname-input"
-        id="lastname-input"
+        name="realname"
+        id="realname"
         placeholder="Nom *"
         required
       />
@@ -34,8 +54,8 @@
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Prénom"
         type="text"
-        name="firstname-input"
-        id="firstname-input"
+        name="firstname"
+        id="firstname"
         placeholder="Prénom *"
         required
       />
@@ -43,8 +63,8 @@
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Email"
         type="email"
-        name="email-input"
-        id="email-input"
+        name="email"
+        id="email"
         placeholder="Email *"
         required
       />
@@ -52,28 +72,28 @@
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Téléphone"
         type="tel"
-        name="phone-input"
-        id="phone-input"
+        name="phone"
+        id="phone"
         placeholder="Téléphone"
       />
       <textarea
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Message"
-        name="message-input"
-        id="message-input"
+        name="message"
+        id="message"
         rows="10"
         placeholder="Message *"
         required
       ></textarea>
-      <label for="security-input" class="mb-2"
+      <label for="security" class="mb-2"
         >Sécurité: quelle lettre apparaît 2 fois dans le logo du site ?</label
       >
       <input
         class="py-2 px-4 rounded-lg shadow-sm mb-4"
         aria-label="Sécurité"
         type="text"
-        name="security-input"
-        id="security-input"
+        name="security"
+        id="security"
         placeholder="Sécurité *"
         required
       />
