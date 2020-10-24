@@ -12,6 +12,12 @@
       <section-prendre-contact></section-prendre-contact>
     </app-forground>
     <app-footer></app-footer>
+
+    <img
+      src="https://analytics.naito.one/matomo.php?idsite=3&amp;rec=1&amp;action_name=Index"
+      style="border: 0"
+      alt=""
+    />
   </main>
 </template>
 <script>
