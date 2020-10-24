@@ -79,18 +79,6 @@
         placeholder="Message *"
         required
       ></textarea>
-      <label for="security" class="mb-2"
-        >Sécurité: quelle lettre apparaît 2 fois dans le logo du site ?</label
-      >
-      <input
-        class="py-2 px-4 rounded-lg shadow-sm mb-4"
-        aria-label="Sécurité"
-        type="text"
-        name="security"
-        id="security"
-        placeholder="Sécurité *"
-        required
-      />
       <p>
         <span class="text-gray-800"
           >Les champs marqués d’une * sont requis.</span
