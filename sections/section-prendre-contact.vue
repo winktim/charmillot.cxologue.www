@@ -27,13 +27,7 @@
         name="subject"
         value="Formulaire de contact C'XOLOGUE"
       />
-      <input
-        type="hidden"
-        name="redirect"
-        :value="`${
-          location ? location.origin : 'https://cxologue.ch'
-        }#prendre-contact?submitted`"
-      />
+      <input type="hidden" name="redirect" :value="returnAddress" />
 
       <input
         type="hidden"
@@ -154,6 +148,13 @@ export default {
   computed: {
     section() {
       return this.$store.getters.sections.row2[2]
+    },
+    returnAddress() {
+      return `${
+        typeof location !== 'undefined'
+          ? location.origin
+          : 'https://cxologue.ch'
+      }/#prendre-contact?submitted`
     },
   },
 }
