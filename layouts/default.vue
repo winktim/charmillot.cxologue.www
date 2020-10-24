@@ -49,6 +49,16 @@ export default {
       hideIEWarning: false,
     }
   },
+  mounted() {
+    // display success message if "submitted" param is present on load
+    if (this.$route.query.hasOwnProperty('submitted')) {
+      this.$store.dispatch('showMessage', {
+        message: 'Votre message a bien été envoyé !',
+        isError: false,
+        time: 5000,
+      })
+    }
+  },
   computed: {
     isIE() {
       return typeof document !== 'undefined' && !!document.documentMode

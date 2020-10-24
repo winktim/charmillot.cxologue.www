@@ -154,7 +154,7 @@ export default {
         typeof location !== 'undefined'
           ? location.origin
           : 'https://cxologue.ch'
-      }/#prendre-contact?submitted`
+      }/?submitted#prendre-contact`
     },
   },
 }
