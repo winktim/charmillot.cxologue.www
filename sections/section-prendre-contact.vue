@@ -97,7 +97,8 @@
 
     <div class="mx-2 md:w-160 md:mx-auto">
       <p>
-        <strong>Consultation sur rdv à Delémont, en matinée ou en soirée</strong
+        <strong
+          >Consultation sur rendez-vous à Delémont, le matin ou le soir</strong
         ><br />
         Dans les locaux du centre de santé sexuelle-planning familial (en dehors
         des heures d’ouverture)<br />
