@@ -31,8 +31,8 @@
         <p>
           Dans ces activités, j’ai constaté que la sexualité et le plaisir
           améliorent la vie des gens et sont une base solide à une meilleure
-          santé en général. Delà est né mon désir d’approfondir mes
-          connaissances en sexologie. Comme sexologue j’aimerais faire tomber
+          santé en général. De là est né mon désir d’approfondir mes
+          connaissances en sexologie. Comme sexologue, j’aimerais faire tomber
           les tabous qui entourent les sexualités et que vous, être humain
           unique, puissiez venir me consulter en toute transparence.
         </p>

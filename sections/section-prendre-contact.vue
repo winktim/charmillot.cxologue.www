@@ -81,7 +81,7 @@
         <span class="text-gray-800"
           >Les champs marqués d’une * sont requis.</span
         ><br />
-        Catherine Charmillot prendra contact avec vous aussi tôt que possible.
+        Je prendrai contact avec vous aussi tôt que possible.
       </p>
 
       <button

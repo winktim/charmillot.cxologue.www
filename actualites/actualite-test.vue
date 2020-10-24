@@ -6,7 +6,12 @@
     :image="actualite.image"
     :light-image="actualite.lightImage"
   >
-    <p>Je suis une actualité de test (1)</p>
+    <p class="flex flex-col">
+      <span class="font-bold italic text-center"
+        >«&nbsp;Le sexe apaise les tensions. L'amour les provoque&nbsp;»</span
+      >
+      <span class="text-right">Woody Allen</span>
+    </p>
   </app-actualite>
 </template>
 <script>

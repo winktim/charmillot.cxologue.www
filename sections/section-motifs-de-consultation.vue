@@ -47,7 +47,7 @@
           </h3>
           <ul class="list-disc pl-6">
             <li>Masturbation</li>
-            <li>Porno</li>
+            <li>Pornographie</li>
             <li>Pratiques sexuelles</li>
             <li>Sexualités diverses</li>
           </ul>
