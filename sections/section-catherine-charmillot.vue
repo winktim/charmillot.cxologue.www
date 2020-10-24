@@ -33,8 +33,8 @@
           améliorent la vie des gens et sont une base solide à une meilleure
           santé en général. De là est né mon désir d’approfondir mes
           connaissances en sexologie. Comme sexologue, j’aimerais faire tomber
-          les tabous qui entourent les sexualités et que vous, être humain
-          unique, puissiez venir me consulter en toute transparence.
+          les tabous qui entourent les sexualités et que vous, être unique,
+          puissiez venir me consulter en toute transparence.
         </p>
       </div>
       <img
