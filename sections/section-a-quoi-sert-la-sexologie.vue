@@ -9,8 +9,9 @@
     <p class="drop-cap">
       Dans notre société, nous parlons beaucoup de l’importance de maintenir une
       bonne santé physique, mentale, relationnelle et aussi une bonne
-      <u>santé sexuelle</u>. Mais, comment évaluer notre santé sexuelle? Quel
-      est notre degré de satisfaction sexuelle, relationnelle, émotionnelle ?
+      <strong>santé sexuelle</strong>. Mais, comment évaluer notre santé
+      sexuelle? Quel est notre degré de satisfaction sexuelle, relationnelle,
+      émotionnelle ?
     </p>
     <br />
     <p>
