@@ -57,6 +57,9 @@ export default {
         isError: false,
         time: 5000,
       })
+
+      // remove the query to not display popup again if page is reloaded
+      this.$router.replace({ query: {}, hash: this.$route.hash })
     }
   },
   computed: {
