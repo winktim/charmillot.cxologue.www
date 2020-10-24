@@ -58,7 +58,7 @@
     <p>
       Grâce aux discussions lors des consultations, l’analyse et l’observation
       des divers axes permettront de dévoiler la « logique de système » de la
-      personne intéressée. Il sera alors possible de restituer au client la
+      personne intéressée. Il sera alors possible de lui restituer la
       compréhension de son fonctionnement dans la sphère de sa sexualité en
       déterminant précisément sa demande. La démarche sexocorporelle se veut
       bienveillante ; elle se base sur les acquis et les limites de la personne
