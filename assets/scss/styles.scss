@@ -79,8 +79,8 @@ input::-ms-clear {
   background-image: url(/images/background.jpg);
   background-size: cover;
   background-position: center top;
-  perspective: 8px;
-  perspective-origin: 50%;
+  // perspective: 8px;
+  // perspective-origin: 50%;
 }
 
 .tile-background {
@@ -171,13 +171,4 @@ body:before {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-// traget IOS and replace fixed backgrounds with scrolling ones
-// https://stackoverflow.com/a/52266360
-// https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout
-@supports (-webkit-touch-callout: inherit) {
-  .bg-fixed {
-    background-attachment: scroll !important;
-  }
 }

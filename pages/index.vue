@@ -1,6 +1,6 @@
 <template>
   <main class="w-full relative">
-    <div class="w-full h-screen header-image absolute z-bottom bg-fixed"></div>
+    <div class="w-full h-screen header-image absolute z-bottom"></div>
     <app-header></app-header>
     <app-forground>
       <app-menu></app-menu>
