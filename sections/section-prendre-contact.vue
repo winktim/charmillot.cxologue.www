@@ -2,7 +2,7 @@
   <section :id="section.id" class="sm:p-2 lg:p-8 xl:px-40 my-16 lg:my-8 z-10">
     <a :href="`#${section.id}`">
       <h2 class="font-heading text-2xl text-center mt-2 mb-4">
-        Prendre contact par téléphone
+        Prendre contact par téléphone et WhatsApp
       </h2>
     </a>
     <a
