@@ -12,7 +12,6 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "luxon": "^1.25.0",
     "nuxt": "^2.14.6"
   },
   "devDependencies": {
