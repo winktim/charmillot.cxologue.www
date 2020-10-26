@@ -12,7 +12,7 @@
       />
     </svg>
     <div
-      class="absolute w-full h-full footer-image z-bottom bg-fixed mt-px"
+      class="fixed top-0 left-0 w-full h-full footer-image z-underworld mt-px"
     ></div>
     <div class="h-full flex flex-col items-center justify-between py-12">
       <img
