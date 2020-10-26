@@ -11,6 +11,13 @@
       interaction pour votre satisfaction sexuelle.<br />
       Je pourrais être la balance qui pèse et soupèse le dosage essentiel.
     </p>
+
+    <p class="flex flex-col mt-8">
+      <span class="font-bold italic text-center"
+        >«&nbsp;Le sexe apaise les tensions. L'amour les provoque&nbsp;»</span
+      >
+      <span class="text-right">Woody Allen</span>
+    </p>
   </app-actualite>
 </template>
 <script>
