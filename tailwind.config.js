@@ -97,6 +97,7 @@ module.exports = {
         '76': '19rem',
         '100': '25rem',
         '200': '50rem',
+        '1/2-screen': '50vh',
         'big-screen': '130vh',
       },
       maxHeight: {
