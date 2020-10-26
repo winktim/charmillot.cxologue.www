@@ -7,15 +7,21 @@
     :light-image="actualite.lightImage"
   >
     <p>
-      Je pourrais collaborer à votre événement<br />
-      Et me tiens à disposition pour tout renseignement
+      Vous souhaitez organiser une conférence publique, un débat ou une
+      information sur les thèmes de la sexualité humaine ou de la santé sexuelle
+      ?
+    </p>
+    <br />
+    <p>
+      Je pourrais collaborer à votre événement et me tiens à disposition pour
+      tout renseignement.
     </p>
   </app-actualite>
 </template>
 <script>
 import AppActualite from '../components/app-actualite'
 export default {
-  name: 'ActualiteOrganisation',
+  name: 'ActualiteAutrePrestation',
   components: { AppActualite },
   computed: {
     actualite() {

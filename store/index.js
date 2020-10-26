@@ -74,17 +74,16 @@ export const state = () => ({
       id: 'actualite-1',
     },
     {
-      title: 'La citation sous la fleur',
+      title: 'Citation',
       date: '24 octobre 2020',
-      image: '/images/actualites/citation-sous-la-fleur.jpg',
+      image: '/images/actualites/citation.jpg',
       lightImage: false,
       id: 'actualite-2',
     },
     {
-      title:
-        'Vous souhaitez organiser une conférence publique, un débat ou une information sur les thèmes de la sexualité humaine ou de la santé sexuelle ?',
+      title: 'Autre prestation',
       date: '24 octobre 2020',
-      image: '/images/actualites/citation-sous-la-fleur.jpg',
+      image: '/images/actualites/autre-prestation.jpg',
       lightImage: false,
       id: 'actualite-3',
     },
