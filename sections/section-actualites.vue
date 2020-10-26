@@ -54,6 +54,7 @@
       <div ref="scroller" class="slider w-full flex overflow-x-auto">
         <actualite-lancement-du-site-web></actualite-lancement-du-site-web>
         <actualite-citation-sous-la-fleur></actualite-citation-sous-la-fleur>
+        <actualite-organisation></actualite-organisation>
       </div>
     </div>
   </div>
@@ -63,12 +64,14 @@ import { debounce } from '../assets/utils'
 import AppSection from '../components/app-section'
 import ActualiteLancementDuSiteWeb from '../actualites/actualite-lancement-du-site-web'
 import ActualiteCitationSousLaFleur from '../actualites/actualite-citation-sous-la-fleur'
+import ActualiteOrganisation from '../actualites/actualite-organisation'
 export default {
   name: 'SectionActualites',
   components: {
     AppSection,
     ActualiteLancementDuSiteWeb,
     ActualiteCitationSousLaFleur,
+    ActualiteOrganisation,
   },
   data() {
     return {
@@ -132,7 +135,11 @@ export default {
     },
     previous() {
       // removing two then adding one at the end because modulo is zero based. js modulo can return negative values
-      this.current = Math.abs((this.current - 2) % this.numActualites) + 1
+      let raw = this.current - 2
+      if (raw < 0) {
+        raw = this.numActualites + raw
+      }
+      this.current = (raw % this.numActualites) + 1
 
       this.scrollToCurrent()
     },

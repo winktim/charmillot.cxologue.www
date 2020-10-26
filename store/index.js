@@ -80,6 +80,14 @@ export const state = () => ({
       lightImage: false,
       id: 'actualite-2',
     },
+    {
+      title:
+        'Vous souhaitez organiser une conférence publique, un débat ou une information sur les thèmes de la sexualité humaine ou de la santé sexuelle ?',
+      date: '24 octobre 2020',
+      image: '/images/actualites/citation-sous-la-fleur.jpg',
+      lightImage: false,
+      id: 'actualite-3',
+    },
   ],
 })
 
