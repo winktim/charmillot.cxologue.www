@@ -117,6 +117,7 @@ html[data-scroll='0'] .back-to-top {
 // put backgroud image on body so that firefox mobile doesn't trim it
 // with it's nav bar
 // also it can be fixed on Safari mobile and that's nice
+/*
 body:before {
   content: '';
   display: block;
@@ -132,3 +133,4 @@ body:before {
   -o-background-size: cover;
   background-size: cover;
 }
+*/
