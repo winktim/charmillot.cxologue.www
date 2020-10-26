@@ -81,6 +81,12 @@ input::-ms-clear {
   background-position: center top;
 }
 
+.footer-image {
+  background-image: url(/images/body_1_low.jpg);
+  background-size: cover;
+  background-position: right center;
+}
+
 .tile-background {
   background-position: center center;
   background-size: cover;
@@ -118,6 +124,13 @@ html[data-scroll='0'] .back-to-top {
 // with it's nav bar
 // also it can be fixed on Safari mobile and that's nice
 
+@supports (-webkit-touch-callout: none) {
+  .bg-fixed {
+    background-attachment: local !important;
+  }
+}
+
+/*
 body:before {
   content: '';
   display: block;
@@ -133,3 +146,4 @@ body:before {
   -o-background-size: cover;
   background-size: cover;
 }
+*/

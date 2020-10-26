@@ -1,7 +1,7 @@
 <template>
   <main class="w-full relative">
     <div
-      class="w-full h-1/2-screen sm:h-screen header-image absolute top-0 left-0 z-bottom"
+      class="w-full h-1/2-screen sm:h-screen header-image absolute top-0 left-0 z-bottom bg-fixed"
     ></div>
     <app-header></app-header>
     <app-forground>
