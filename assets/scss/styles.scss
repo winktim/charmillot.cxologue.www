@@ -79,53 +79,12 @@ input::-ms-clear {
   background-image: url(/images/background.jpg);
   background-size: cover;
   background-position: center top;
-  // perspective: 8px;
-  // perspective-origin: 50%;
 }
 
 .tile-background {
   background-position: center center;
   background-size: cover;
 }
-
-/*
-// Parallax disabled because hard to work with, and doesn't work on apple devices
-// parallax
-
-$parallax-perspective: 8px;
-
-@function parallax-scale-factor($z-distance) {
-  @return ($parallax-perspective - $z-distance) / $parallax-perspective;
-}
-
-@screen md {
-  .md\:parallax-container {
-    perspective: $parallax-perspective;
-    perspective-origin: 0%;
-  }
-
-  .md\:parallax-background {
-    $distance: -10;
-    transform-origin: 0;
-    transform: translateZ($distance * 1px)
-      scale(parallax-scale-factor($distance));
-  }
-
-  .md\:parallax-header {
-    $distance: -5;
-    transform-origin: 0;
-    transform: translateZ($distance * 1px)
-      scale(parallax-scale-factor($distance));
-  }
-
-  .md\:parallax-footer {
-    $distance: -8;
-    transform-origin: 0;
-    transform: translateZ($distance * 1px)
-      scale(parallax-scale-factor($distance));
-  }
-}
-*/
 
 .drop-shadow-lg-top {
   filter: drop-shadow(0 -7px 7px rgba(0, 0, 0, 0.1));
@@ -157,6 +116,7 @@ html[data-scroll='0'] .back-to-top {
 
 // put backgroud image on body so that firefox mobile doesn't trim it
 // with it's nav bar
+// also it can be fixed on Safari mobile and that's nice
 body:before {
   content: '';
   display: block;
