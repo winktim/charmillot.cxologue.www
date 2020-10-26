@@ -77,8 +77,13 @@ input::-ms-clear {
 
 .header-image {
   background-image: url(/images/background.jpg);
-  background-size: cover;
   background-position: center top;
+
+  background-size: 130%;
+
+  @screen sm {
+    background-size: cover;
+  }
 }
 
 .footer-image {
