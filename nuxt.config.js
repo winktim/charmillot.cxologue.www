@@ -1,6 +1,3 @@
-import path from 'path'
-import glob from 'glob-all'
-
 const features = ['es2015', 'es2016', 'IntersectionObserver'].join('%2C')
 
 export default {
