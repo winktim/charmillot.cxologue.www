@@ -48,8 +48,8 @@
         Je m’engage à mettre mes compétences humaines et relationnelles ainsi
         que les outils de l’approche sexocorporelle à votre disposition. Une
         écoute attentive sera ma priorité. Mon approche est authentique,
-        bienveillante et respectueuse. Je m’efforcerai de prendre soin de votre
-        intimité dans le secret professionnel et dans une discrétion totale.
+        bienveillante et respectueuse. Je prendrai soin de votre intimité dans
+        le secret professionnel et dans une discrétion totale.
       </strong>
     </p>
   </app-section>

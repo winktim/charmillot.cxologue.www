@@ -80,8 +80,7 @@
         required
       ></textarea>
       <p>
-        <span class="text-gray-800"
-          >Les champs marqués d’une * sont requis.</span
+        <span class="text-gray-800">Les champs marqués d’un * sont requis.</span
         ><br />
         Je prendrai contact avec vous aussi tôt que possible.
       </p>

@@ -27,7 +27,7 @@
           class="py-6 px-10 my-4 rounded-xl shadow-md bg-c-violet-1 flex flex-col items-center md:mr-4"
         >
           <h3 class="font-bold text-xl text-center mb-1">
-            Pallier à des difficultés relationnelles
+            Pallier des difficultés relationnelles
           </h3>
           <ul class="list-disc pl-6">
             <li>Questionnement amoureux</li>
@@ -62,7 +62,7 @@
           class="py-6 px-10 mb-4 md:mb-0 md:mt-4 rounded-xl shadow-md bg-c-violet-1 flex flex-col items-center md:ml-4 md:order-1"
         >
           <h3 class="font-bold text-xl text-center mb-1">
-            Remédier à un disfonctionnement sexuel
+            Remédier à un dysfonctionnement sexuel
           </h3>
           <ul class="list-disc pl-6">
             <li>Perte érection</li>

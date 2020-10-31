@@ -47,7 +47,7 @@
       </li>
       <li class="my-3">
         Les composantes PHYSIOLOGIQUES<br />
-        capacité à ressentir son corps, sources, modes et courbes d’excitation
+        Capacité à ressentir son corps, sources, modes et courbes d’excitation
       </li>
       <li class="my-3">
         Les composantes COGNITIVES<br />
