@@ -80,7 +80,7 @@
         required
       ></textarea>
       <p>
-        <span class="text-gray-800">Les champs marqués d’un * sont requis.</span
+        <span class="text-gray-800">Les champs marqués d'un * sont requis.</span
         ><br />
         Je prendrai contact avec vous aussi tôt que possible.
       </p>
@@ -102,7 +102,7 @@
           >Consultation sur rendez-vous à Delémont, le matin ou le soir</strong
         ><br />
         Dans les locaux du centre de santé sexuelle-planning familial (en dehors
-        des heures d’ouverture)<br />
+        des heures d'ouverture)<br />
         Tarif préférentiel pour petits budgets
       </p>
       <br />

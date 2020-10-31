@@ -20,7 +20,7 @@
           <ul class="list-disc pl-6">
             <li>Développer de nouvelles compétences</li>
             <li>Évoluer avec sa situation et son âge</li>
-            <li>S’adapter à son, sa ou ses partenaires</li>
+            <li>S'adapter à son, sa ou ses partenaires</li>
           </ul>
         </li>
         <li

@@ -40,7 +40,7 @@ export const state = () => ({
     ],
     row2: [
       {
-        title: 'Synthèse de l’approche',
+        title: "Synthèse de l'approche",
         image: '/images/flowers_3.jpg',
         bgColor: 'c-violet-2',
         fgColor: 'gray-100',

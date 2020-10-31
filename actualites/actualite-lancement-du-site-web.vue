@@ -13,7 +13,7 @@
       alt="C'XOLOGUE"
     />
     <p class="text-c-violet-3 font-bold italic">
-      Dans l’interprétation de votre partition de musique sexuelle, je pourrais
+      Dans l'interprétation de votre partition de musique sexuelle, je pourrais
       être le diapason parfois nécessaire afin de réajuster les notes.
     </p>
   </app-actualite>

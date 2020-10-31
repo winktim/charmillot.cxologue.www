@@ -7,7 +7,7 @@
     :fg-color="section.alternateFgColor || section.fgColor"
   >
     <p class="drop-cap">
-      Dans notre société, nous parlons beaucoup de l’importance de maintenir une
+      Dans notre société, nous parlons beaucoup de l'importance de maintenir une
       bonne santé physique, mentale, relationnelle et aussi une bonne
       <strong>santé sexuelle</strong>. Mais, comment déterminer notre santé
       sexuelle ? Quel est notre degré de satisfaction sexuelle, relationnelle,
@@ -16,7 +16,7 @@
     <br />
     <p>
       Une sexualité épanouie repose sur les habiletés à ressentir et à jouer
-      avec son corps, son cœur et son esprit, d’une manière
+      avec son corps, son cœur et son esprit, d'une manière
       <strong>consentie, conscientisée et diversifiée</strong>.
     </p>
     <br />
@@ -35,10 +35,10 @@
     <br />
     <p>
       La sexualité est apprise et évolutive, seul le réflexe neurologique
-      d’excitation génitale est inné. La façon dont le corps va le mettre en
+      d'excitation génitale est inné. La façon dont le corps va le mettre en
       action nécessite un apprentissage qui démarre dès la petite enfance. Quand
-      une personne consulte, c’est que cet apprentissage ne lui a pas permis
-      d’éclore une sexualité satisfaisante et/ou que les apprentissages sont
+      une personne consulte, c'est que cet apprentissage ne lui a pas permis
+      d'éclore une sexualité satisfaisante et/ou que les apprentissages sont
       lacunaires actuellement.
     </p>
   </app-section>
