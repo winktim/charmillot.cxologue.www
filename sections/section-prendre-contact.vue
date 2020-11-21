@@ -32,15 +32,15 @@
       <input
         type="hidden"
         name="sort"
-        value="order:realname,firstname,email,phone,message"
+        value="order:lastname,firstname,mail,phone,message"
       />
 
       <input
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Nom"
         type="text"
-        name="realname"
-        id="realname"
+        name="lastname"
+        id="lastname"
         placeholder="Nom *"
         required
       />
@@ -57,8 +57,8 @@
         class="py-2 px-4 rounded-lg shadow-sm mb-2"
         aria-label="Email"
         type="email"
-        name="email"
-        id="email"
+        name="mail"
+        id="mail"
         placeholder="Email *"
         required
       />
