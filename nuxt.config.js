@@ -26,6 +26,11 @@ export default {
         content:
           'sexologue,delémont,sexocorporel,consultation,jura,catherine,charmillot',
       },
+      {
+        hid: 'google-site-verification',
+        name: 'google-site-verification',
+        content: 'mU6PblZ-nNbvApcsNNgaFGkB2WcY2_f2SiJUiLAYuhE',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
 
