@@ -18,7 +18,13 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Consultations de sexologie à Delémont avec Catherine Charmillot',
+          'Consultations de sexologue à Delémont avec Catherine Charmillot',
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content:
+          'sexologue,delémont,sexocorporel,consultation,jura,catherine,charmillot',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
