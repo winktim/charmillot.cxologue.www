@@ -38,18 +38,21 @@ export default {
         type: 'font/woff2',
         as: 'font',
         href: '/fonts/MaterialIcons/MaterialIcons-Regular.woff2',
+        crossorigin: true,
       },
       {
         rel: 'preload',
         type: 'font/woff2',
         as: 'font',
         href: '/fonts/Mulish/Mulish-ExtraBoldItalic.woff2',
+        crossorigin: true,
       },
       {
         rel: 'preload',
         type: 'font/woff2',
         as: 'font',
         href: '/fonts/Mulish/Mulish-SemiBold.woff2',
+        crossorigin: true,
       },
     ],
 
