@@ -32,7 +32,27 @@ export default {
         content: 'mU6PblZ-nNbvApcsNNgaFGkB2WcY2_f2SiJUiLAYuhE',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'preload',
+        type: 'font/woff2',
+        as: 'font',
+        href: '/fonts/MaterialIcons/MaterialIcons-Regular.woff2',
+      },
+      {
+        rel: 'preload',
+        type: 'font/woff2',
+        as: 'font',
+        href: '/fonts/Mulish/Mulish-ExtraBoldItalic.woff2',
+      },
+      {
+        rel: 'preload',
+        type: 'font/woff2',
+        as: 'font',
+        href: '/fonts/Mulish/Mulish-SemiBold.woff2',
+      },
+    ],
 
     script: [
       {
