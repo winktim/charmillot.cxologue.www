@@ -17,8 +17,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          'Consultations de sexologue à Delémont avec Catherine Charmillot',
+        content: 'Catherine Charmillot, sexologue à Delémont',
       },
       {
         hid: 'keywords',
