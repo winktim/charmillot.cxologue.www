@@ -99,7 +99,8 @@
     <div class="mx-2 md:w-160 md:mx-auto">
       <p>
         <strong
-          >Consultation sur rendez-vous à Delémont, le matin ou le soir</strong
+          >Consultation sur rendez-vous le matin ou le soir, à Delémont,
+          <span class="text-sm">Jura suisse</span></strong
         ><br />
         Dans les locaux du centre de santé sexuelle-planning familial (en dehors
         des heures d'ouverture)<br />

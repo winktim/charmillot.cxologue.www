@@ -17,7 +17,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Catherine Charmillot, sexologue à Delémont',
+        content: 'Catherine Charmillot, sexologue à Delémont, Jura suisse',
       },
       {
         hid: 'keywords',

@@ -6,7 +6,8 @@
       alt="C'XOLOGUE"
     />
     <h1 class="px-8 w-full md:w-1/2 text-center font-extrabold text-xl z-10">
-      Sexologue à Delémont
+      Sexologue à Delémont,
+      <span class="text-sm">Jura suisse</span>
     </h1>
   </div>
 </template>
