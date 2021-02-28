@@ -56,6 +56,7 @@
         <actualite-citation></actualite-citation>
         <actualite-autre-prestation></actualite-autre-prestation>
         <actualite-citation-01-21></actualite-citation-01-21>
+        <actualite-citation-03-21></actualite-citation-03-21>
       </div>
     </div>
   </div>
@@ -67,6 +68,7 @@ import ActualiteLancementDuSiteWeb from '../actualites/actualite-lancement-du-si
 import ActualiteCitation from '../actualites/actualite-citation'
 import ActualiteAutrePrestation from '../actualites/actualite-autre-prestation'
 import ActualiteCitation0121 from '../actualites/actualite-citation-01-21'
+import ActualiteCitation0321 from '../actualites/actualite-citation-03-21'
 export default {
   name: 'SectionActualites',
   components: {
@@ -75,6 +77,7 @@ export default {
     ActualiteCitation,
     ActualiteAutrePrestation,
     ActualiteCitation0121,
+    ActualiteCitation0321,
   },
   data() {
     return {
