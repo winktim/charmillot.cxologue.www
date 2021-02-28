@@ -55,6 +55,7 @@
         <actualite-lancement-du-site-web></actualite-lancement-du-site-web>
         <actualite-citation></actualite-citation>
         <actualite-autre-prestation></actualite-autre-prestation>
+        <actualite-citation-01-21></actualite-citation-01-21>
       </div>
     </div>
   </div>
@@ -65,6 +66,7 @@ import AppSection from '../components/app-section'
 import ActualiteLancementDuSiteWeb from '../actualites/actualite-lancement-du-site-web'
 import ActualiteCitation from '../actualites/actualite-citation'
 import ActualiteAutrePrestation from '../actualites/actualite-autre-prestation'
+import ActualiteCitation0121 from '../actualites/actualite-citation-01-21'
 export default {
   name: 'SectionActualites',
   components: {
@@ -72,6 +74,7 @@ export default {
     ActualiteLancementDuSiteWeb,
     ActualiteCitation,
     ActualiteAutrePrestation,
+    ActualiteCitation0121,
   },
   data() {
     return {
