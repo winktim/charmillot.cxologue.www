@@ -52,11 +52,11 @@
         class="absolute w-full h-full transparent-borders z-10 pointer-events-none"
       ></div>
       <div ref="scroller" class="slider w-full flex overflow-x-auto">
-        <actualite-lancement-du-site-web></actualite-lancement-du-site-web>
-        <actualite-citation></actualite-citation>
-        <actualite-autre-prestation></actualite-autre-prestation>
-        <actualite-citation-01-21></actualite-citation-01-21>
         <actualite-citation-03-21></actualite-citation-03-21>
+        <actualite-citation-01-21></actualite-citation-01-21>
+        <actualite-autre-prestation></actualite-autre-prestation>
+        <actualite-citation></actualite-citation>
+        <actualite-lancement-du-site-web></actualite-lancement-du-site-web>
       </div>
     </div>
   </div>
