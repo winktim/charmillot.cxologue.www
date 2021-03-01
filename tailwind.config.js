@@ -85,6 +85,7 @@ module.exports = {
         '1/5': '20%',
         '1/4': '25%',
         '1/3': '33%',
+        '2-5': '0.6rem',
       },
       width: {
         100: '25rem',
@@ -136,6 +137,9 @@ module.exports = {
       boxShadow: {
         'lg-top':
           '0 -10px 15px -3px rgba(0, 0, 0, 0.1), 0 -4px 6px -2px rgba(0, 0, 0, 0.05)',
+      },
+      fontSize: {
+        '2xs': ['0.5rem', { lineHeight: '1' }],
       },
     },
   },

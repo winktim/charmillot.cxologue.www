@@ -22,7 +22,7 @@
         >
           arrow_left
         </button>
-        <div class="flex">
+        <div class="flex items-center">
           <a
             :aria-label="`Accéder à l'actualité ${i}`"
             :title="`Accéder à l'actualité ${i}`"
@@ -30,8 +30,10 @@
             :key="i"
             :href="`#actualite-${i}`"
             @click="$event.preventDefault() || goTo(i)"
-            :class="`material-icons p-4 ${
+            :class="`material-icons py-4 px-2-5 sm:px-4 ${
               current === i ? 'text-gray-900' : 'text-gray-500'
+            } ${
+              shouldBeFullSize(i) ? '' : 'text-2xs px-1 sm:text-base sm:px-4'
             }`"
             >lens</a
           >
@@ -62,7 +64,7 @@
   </div>
 </template>
 <script>
-import { debounce } from '../assets/utils'
+import { shouldBeFullSize } from '../assets/utils'
 import AppSection from '../components/app-section'
 import ActualiteLancementDuSiteWeb from '../actualites/actualite-lancement-du-site-web'
 import ActualiteCitation from '../actualites/actualite-citation'
@@ -165,6 +167,9 @@ export default {
         behavior: 'smooth',
       })
       this.setToHash()
+    },
+    shouldBeFullSize(i) {
+      return shouldBeFullSize(i - 1, this.current - 1, this.numActualites)
     },
   },
   computed: {
