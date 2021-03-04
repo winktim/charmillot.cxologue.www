@@ -101,11 +101,11 @@
         ><br />
         Je prendrai contact avec vous aussi tôt que possible.
       </p>
-      <noscript>
-        <span class="text-red-600"
-          >Javascript est requis pour soumettre le formulaire !</span
-        >
-      </noscript>
+      <span class="text-red-600">
+        <noscript>
+          Javascript est requis pour soumettre le formulaire !
+        </noscript></span
+      >
 
       <button
         class="rounded-lg bg-c-violet-3 p-3 shadow-md text-gray-100 flex items-center justify-center mx-auto max-w-full w-40 select-none mt-4"
@@ -175,6 +175,8 @@ export default {
         window.location = this.robotReturnAddress
         return false
       }
+
+      this.validated = true
 
       this.$refs.form.action = 'https://contact.cxologue.ch/cgi-bin/FormMail.pl'
       this.$refs.form.submit()
