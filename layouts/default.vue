@@ -61,6 +61,19 @@ export default {
       // remove the query to not display popup again if page is reloaded
       this.$router.replace({ query: {}, hash: this.$route.hash })
     }
+
+    // display success message if "submitted" param is present on load
+    if (this.$route.query.hasOwnProperty('human')) {
+      this.$store.dispatch('showMessage', {
+        message:
+          "Malheureusement Catherine Charmillot n'est pas diplômée dans les relations robotiques !",
+        isError: true,
+        time: 5000,
+      })
+
+      // remove the query to not display popup again if page is reloaded
+      this.$router.replace({ query: {}, hash: this.$route.hash })
+    }
   },
   computed: {
     isIE() {

@@ -18,9 +18,11 @@
     </h2>
 
     <form
+      ref="form"
       method="post"
-      action="https://contact.cxologue.ch/cgi-bin/FormMail.pl"
+      action="#"
       class="flex flex-col mx-2 md:w-160 md:mx-auto placeholder-gray-750"
+      @submit="submit"
     >
       <input
         type="hidden"
@@ -79,11 +81,31 @@
         placeholder="Message *"
         required
       ></textarea>
+      <span class="text-gray-800"
+        >Afin de limiter le spam, merci de cocher ce qui convient</span
+      >
+      <div class="flex items-center">
+        <input type="checkbox" name="checkbox-1" id="checkbox-1" />
+        <label class="ml-2 select-none" for="checkbox-1"
+          >Cochez cette case si vous êtes un humain</label
+        >
+      </div>
+      <div class="flex items-center mb-2">
+        <input type="checkbox" name="checkbox-2" id="checkbox-2" />
+        <label class="ml-2 select-none" for="checkbox-2"
+          >Cochez cette case si vous êtes un robot</label
+        >
+      </div>
       <p>
         <span class="text-gray-800">Les champs marqués d'un * sont requis.</span
         ><br />
         Je prendrai contact avec vous aussi tôt que possible.
       </p>
+      <noscript>
+        <span class="text-red-600"
+          >Javascript est requis pour soumettre le formulaire !</span
+        >
+      </noscript>
 
       <button
         class="rounded-lg bg-c-violet-3 p-3 shadow-md text-gray-100 flex items-center justify-center mx-auto max-w-full w-40 select-none mt-4"
@@ -133,6 +155,33 @@
 <script>
 export default {
   name: 'SectionPrendreContact',
+  data() {
+    return {
+      validated: false,
+    }
+  },
+  methods: {
+    submit(event) {
+      if (this.validated) {
+        return true
+      }
+
+      event.preventDefault()
+
+      const human = event.target[8].checked
+      const robot = event.target[9].checked
+
+      if (robot || !human) {
+        window.location = this.robotReturnAddress
+        return false
+      }
+
+      this.$refs.form.action = 'https://contact.cxologue.ch/cgi-bin/FormMail.pl'
+      this.$refs.form.submit()
+
+      return false
+    },
+  },
   computed: {
     section() {
       return this.$store.getters.sections.row2[2]
@@ -143,6 +192,13 @@ export default {
           ? location.origin
           : 'https://cxologue.ch'
       }/?submitted#prendre-contact`
+    },
+    robotReturnAddress() {
+      return `${
+        typeof location !== 'undefined'
+          ? location.origin
+          : 'https://cxologue.ch'
+      }/?human#prendre-contact`
     },
   },
 }
