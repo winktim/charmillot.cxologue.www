@@ -22,7 +22,7 @@
       />
 
       <p class="text-center w-2/3 lg:w-160 text-gray-100 text-shadow-md">
-        © 2020 - Catherine Charmillot<br />
+        © 2021 - Catherine Charmillot<br />
         Sauf indication contraire, toutes les images présentes sur ce site sont
         la propriété de Catherine Charmillot ou proviennent du domaine
         public.<br /><br />
