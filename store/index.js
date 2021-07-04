@@ -101,6 +101,22 @@ export const state = () => ({
       lightImage: true,
       id: 'actualite-5',
     },
+    {
+      title: 'Citation',
+      date: '4 juillet 2021',
+      image: '/images/actualites/citation-07-21.jpg',
+      lightImage: false,
+      id: 'actualite-6',
+    },
+    /*
+    {
+      title: 'Citation',
+      date: '1 septembre 2021',
+      image: '/images/actualites/citation-09-21.jpg',
+      lightImage: true,
+      id: 'actualite-7',
+    },
+    */
   ],
 })
 
